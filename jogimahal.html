@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jogi Mahal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- internal Stylesheet -->
+    <style>
+      /*** Hero Header ***/
+      .hero-header {
+        background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/Jogi-mahal5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .breadcrumb-item + .breadcrumb-item::before {
+        color: rgba(255, 255, 255, .5);
+      }
+
+      .map_container {
+                height: 100%;
+                min-height: 375px;
+            }
+            
+      .map_container .map-responsive {
+                height: 100%;
+            }
+    </style>
+    
+</head>
+
+<body>
+ <!-- Spinner Start -->
+ <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+  <div class="spinner-grow " style="width: 3rem; height: 3rem;  color: #17A2B8;" role="status">
+      <span class="sr-only">Loading...</span>
+  </div>
+</div>
+<!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="hero_area">
+        <header class="header_section">
+            <div class="header_top bg-dark">
+              <div class="container">
+                <div class="contact_nav">
+                  <a href="tel:6367624163">
+                    <i class="bi bi-telephone text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Call : +91 6367624163
+                    </span>
+                  </a>
+                  <a href="mailto:bhardwajsunny550@gmail.com">
+                    <i class="bi bi-envelope text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Email : bhardwajsunny550@gmail.com
+                    </span>
+                  </a>
+                  <a href="https://maps.app.goo.gl/ppohmNaqCuS2JaM76" target="_blank">
+                    <i class="bi bi-geo-alt text-primary" aria-hidden="true"></i>
+                    <span style="color: white;">
+                      Location
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+          <a href="" class="navbar-brand p-0">
+              <img src="img/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="index.html" class="nav-item nav-link ">Home</a>
+                  <div class="nav-item dropdown">
+                  <a href="#about" class=" nav-link dropdown-toggle active" data-bs-toggle="dropdown">Destination</a>
+                  <div class="dropdown-menu m-0">
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">National park</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ranthambore Fort</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ganesh Temple</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Mansarover lakes</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rameshwaram ghat</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Surwal Lake</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Raj Bagh Ruins</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Toran Dwar</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rajiv Gandhi Regional Museum </a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Jogi Mahal </a>
+                  </div>
+              </div>
+                  <div class="nav-item dropdown">
+                      <a href="#service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="https://www.thevillageheart.com/" class="dropdown-item">Hotel</a>
+                          <a href="online-safari-booking-ranthambore.html" class="dropdown-item">Ranthambore Safari</a>
+                          <a href="ranthambore-tour-guide.html" class="dropdown-item">Travel Guides</a>
+                      </div>
+                  </div>
+                  <div class="nav-item dropdown">
+                      <a href="#product" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Headphones</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Earbuds</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Smart Watches</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">VR Headsets</a>
+                      </div>
+                  </div>
+                  <a href="package1.html" class="nav-item nav-link">Packages</a>
+                  <a href="blog.html" class="nav-item nav-link ">Blog</a>
+              </div>
+              <a href="online-safari-booking-ranthambore.html" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
+          </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+          <div class="container py-5">
+              <div class="row justify-content-center py-5">
+                  <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                      <h1 class="display-3 text-white mb-3 animated slideInDown">Wild Crews</h1>
+                      <p class="fs-4 text-white mb-4 animated slideInDown">Feel The Roar With Us</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Navbar & Hero End -->
+     <!--social media section-->
+
+     <div class="whatsapp_option">
+        <a href="	https://wa.me/916367624163" target="_blank"><img src="img/whatsapp.png" width="50px" class="_whatsapp_float_btn"/></a>
+    </div>
+
+  <div class="insta_option">
+    <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><img src="img/instagram.png"  width="50px" alt="" class="instagram_float_btn"></a>
+  </div>
+  
+  <div class="mail_option">
+    <a href="mailto:bhardwajsunny550gmail.com" target="_blank"><img src="img/mail.png"  width="50px" alt="" class="mail_float_btn"></a>
+  </div>
+  
+  <div class="call_option">
+    <a href="tel:916367624163" ><img src="img/call.png" width="50px" class="_call_float_btn"/></a>
+  </div>
+
+  <!--end social option-->
+     <!-- About Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">overview</h6>
+                    <h1 class="mb-4">Jogi Mahal: Rajasthan's Hidden Gem in Ranthambore</h1>
+                    <p class="mb-4">Nestled deep within the pristine wilderness of Ranthambore National Park in the Indian state of Rajasthan lies a hidden gem of historical and natural significance—Jogi Mahal. This enchanting palace, often overlooked amidst the park's awe-inspiring natural wonders, carries with it a rich tapestry of history, wildlife, and tranquility. Jogi Mahal, originally a royal hunting lodge, stands as a testament to the grandeur of a bygone era and serves as a gateway to the mesmerizing wilderness of Ranthambore. In this brief exploration, we invite you to step back in time and immerse yourself in the captivating allure of Jogi Mahal—a place where history and nature coexist in perfect harmony.</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative">
+                      <a href="img/jogi-mahal1.jpg" target="_blank">
+                        <img class="img-fluid" src="img/jogi-mahal1.jpg" alt="jogi-mahal" width="100%"  style="object-fit: cover; ">
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+     <!---Architecture-->
+     <div class="container-xxl py-5" >
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Architecture</h6>
+                <h2 class="mb-5">Jogi Mahal's Rajput-Inspired Architecture: A Visual Deligh</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">The architecture of Jogi Mahal is a fascinating blend of both traditional Rajput style and colonial influences, making it a unique and visually striking structure. Here's an overview of the architectural features of Jogi Mahal:</p>
+                <h4><b style=" text-align: justify;"> Rajput Style Elegance</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">Jogi Mahal, constructed during the late 19th century, reflects the architectural elegance typical of the Rajput style. The palace is a two-story structure built primarily with red sandstone, a common building material in the region. The sandstone facade is adorned with intricate carvings and ornate jharokhas (balconies) that are emblematic of Rajput architecture. These decorative elements showcase the craftsmanship of the artisans of that era and add to the palace's regal charm.</p>
+                <h4><b style=" text-align: justify;"> Colonial Influences</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">While rooted in Rajput architecture, Jogi Mahal also bears the influence of colonial design, a reflection of the historical period during which it was constructed. This is evident in the arched windows and doorways, which exhibit a blend of Mughal and European architectural styles. The arches add a sense of grandeur to the structure and provide a striking contrast to the natural surroundings of Ranthambore National Park.</p>
+                <h4><b style=" text-align: justify;">Courtyard and Banyan Tree</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">One of the most iconic features of Jogi Mahal is its central courtyard, which offers a serene space for visitors to relax and take in the architectural beauty. In the center of this courtyard stands a colossal banyan tree with sprawling roots and branches that provide ample shade. This ancient tree not only adds to the palace's charm but also serves as a reminder of the palace's connection to nature and the surrounding wilderness.</p>
+                <h4><b style=" text-align: justify;">Purposeful Design</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">The architecture of Jogi Mahal was not only aesthetically pleasing but also had functional significance. Originally built as a hunting lodge for the royal family, the palace's design allowed the Maharaja and his guests to enjoy the scenic views of Padam Talao Lake while engaging in hunting activities. The well-thought-out design, with its balconies and open spaces, offered vantage points for observing wildlife and the natural beauty of the region.</p>
+                <p style="padding-bottom: 30px; text-align: center;">Jogi Mahal's architecture is a captivating fusion of Rajput and colonial influences, making it a testament to the region's historical richness. Its intricate details, use of red sandstone, and the harmonious integration with the surrounding natural environment make it a remarkable architectural gem within Ranthambore National Park.</p>
+            </div>
+        </div>
+    </div>
+      <!---Architecture-->
+        <!--- History-->
+    <div class="container-xxl py-5" >
+      <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center text-primary px-3"> History</h6>
+              <h2 class="mb-5">A Legacy of Rajput Royalty: The Story of Jogi Mahal</h2>
+          </div>
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <p style="padding-bottom: 30px; text-align: center;">Jogi Mahal holds a fascinating history that is intertwined with the rich tapestry of Rajasthan's past. Built during the late 19th century under the patronage of Maharaja Madho Singh II of Jaipur, this picturesque palace originally served as a hunting lodge for the royal family. It was a retreat where the Maharaja and his entourage could indulge in the grand tradition of hunting expeditions within the sprawling wilderness of Ranthambore..</p>
+              <p style="padding-bottom: 30px; text-align: center;">The name "Jogi Mahal" is derived from the ascetic Jogi who resided within its walls and provided spiritual guidance to the Maharaja. The palace also played a pivotal role in the royal hunting expeditions that were held in the surrounding forests. Over time, it became a testament to the opulence and architectural finesse of the Rajput era while also serving as a vantage point for observing the remarkable wildlife that thrived in the Ranthambore region. Today, Jogi Mahal stands as a historical relic, showcasing the transition from its royal hunting lodge origins to its current role as a symbol of both heritage and wildlife conservation within Ranthambore National Park.</p>
+             </div>
+      </div>
+  </div>
+   <!---  History-->
+    <!--- Architecture-->
+        <div class="container-xxl py-5" >
+          <div class="container">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <h6 class="section-title bg-white text-center text-primary px-3"> Nature's Sanctuary</h6>
+                  <h2 class="mb-5">The Natural Oasis of Jogi Mahal in Ranthambore</h2>
+              </div>
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1">Nestled in the heart of the Ranthambore National Park, Jogi Mahal is not just a historical relic but also a pristine nature's sanctuary. Surrounded by dense forests, picturesque lakes, and abundant wildlife, it offers visitors a serene escape into the heart of Rajasthan's natural beauty.</p>
+                  <p style="padding-bottom: 30px; text-align: center;">The focal point of Jogi Mahal's natural appeal is the adjacent Padam Talao Lake, which provides a tranquil setting for both the palace and its visitors. The lake's still waters mirror the palace's grandeur, and the sight of the ancient banyan tree on its banks provides a serene backdrop. This idyllic setting is not only visually stunning but also teems with wildlife. Lucky visitors may witness various bird species, sambar deer, langur monkeys, and even the elusive Bengal tiger quenching their thirst at the water's edge. The palace's location within the national park ensures that every visit is a unique opportunity to immerse oneself in Rajasthan's untamed wilderness.</p>
+                  <p style="padding-bottom: 30px; text-align: center;">Beyond its picturesque location, Jogi Mahal is also a hub for conservation efforts within Ranthambore National Park. It houses administrative offices dedicated to the protection of the park's diverse flora and fauna. Visitors can learn about these vital conservation initiatives and the delicate balance between preserving the region's natural wonders and welcoming curious explorers. Jogi Mahal, in this sense, stands as a bridge between the past, where royalty indulged in hunting expeditions, and the present, where it serves as a cornerstone of Ranthambore's dedication to wildlife preservation and ecotourism.
+                  </p>
+              </div>
+          </div>
+      </div>
+        <!--- Architecture-->
+      <!-- gallery Start -->
+   <div class="container-xxl py-5 destination">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">gallery</h6>
+            <h2 class="mb-5">Raj Bagh Ruins</h2>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                        <a class="position-relative d-block overflow-hidden" href="img/Jogi-mahal4.jpg" target="_blank">
+                            <img class="img-fluid" src="img/Jogi-mahal4.jpg" alt="jogi-mahal" width="100%">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden" href="img/Jogi_Mahal2.jpg" target="_blank">
+                            <img class="img-fluid" src="img/Jogi_Mahal2.jpg" alt="jogi-mahal">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                        <a class="position-relative d-block overflow-hidden" href="img/jogi-mahal3.jpg" target="_blank">
+                            <img class="img-fluid"  src="img/jogi-mahal3.jpg" alt="jogi-mahal"  >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="img/jogi-mahal1.jpg" target="_blank">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/jogi-mahal1.jpg" alt="jogi-mahal" style="object-fit: cover;">
+                    <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">jogi mahal</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- gallary end -->
+ <!-- location Start -->
+ <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="booking p-5 row">
+            <div class="col-md-6 px-0">
+                <div class="map_container">
+                  <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14341.043063243098!2d76.4557672!3d26.0250226!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396e2762aefff9cf%3A0x9cc0de84d1aa5c61!2sJogi%20Mahal!5e0!3m2!1sen!2sin!4v1695661320482!5m2!1sen!2sin"  width="600" height="300" style="border:0;  width: 100%; height:100%" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+                <div class="col-md-6" style="text-align: center; margin-top: 100px;">
+                    <h1 class="text-white mb-4">Location</h1>
+                    <p>Jogi Mahal is located within the Ranthambore National Park in the Sawai Madhopur district of the Indian state of Rajasthan. It is situated near the Padam Talao Lake, which is one of the picturesque lakes within the national park.
+                    To reach Jogi Mahal, you typically need to enter Ranthambore National Park, which is renowned for its Bengal tiger population and diverse wildlife. Visitors often take guided wildlife safaris to explore the park and can come across Jogi Mahal during their visit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- location end -->
+ <!-- blog section -->
+
+<div class="container-xxl py-5" id="blog" >
+    <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
+                <h1 class="mb-5">Our Blog</h1>
+            </div>  
+        <div class="row g-4 portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid " src="img/blog1.jpg" alt="Ranthambore tiger reserve">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog1.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog1.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore tiger reserve</p>
+                        <h5 class="lh-base mb-0"> popular national parks in the country</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="Ranthambore Safari">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog2.jpg" data-lightbox="portfolio" target="_blank" ><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog2.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari</p>
+                        <h5 class="lh-base mb-0">wildlife safari experience in the Ranthambore Tiger Reserve</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog3.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye "></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog3.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari zone</p>
+                        <h5 class="lh-base mb-0">multiple safari zones each offering a unique wildlife experience </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="key">
+            <a href="blog.html">
+              View All Blogs
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- blog section End -->
+ <!---footer section start-->
+<footer class="text-center text-lg-start bg-dark text-white">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/+916367624163" class="me-4 text-reset">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://github.com/mrkali550" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-1 col-lg-4 col-xl-3 mx-auto mb-0">
+          <!-- Content -->
+          <img src="img/logo.png" alt="wild-crews" style="width: 60%;">
+          <h6 class="text-uppercase fw-bold mb-4"  style="font-family: 'Bagel Fat One', cursive; font-size: 150%; color: white;">
+            <i class="me-3"></i>Wild Crews
+          </h6>
+          <p>
+            Your gateway to extraordinary jungle safaris and wildlife adventures, where unforgettable encounters with nature and immersive experiences await.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+            Products
+          </h6>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Wild Life</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Safari Wears</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Musical</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">
+            Services
+          </h6>
+          <p>
+            <a href="https://www.thevillageheart.com/" class="text-reset">Hotels</a>
+          </p>
+          <p>
+            <a href="online-safari-booking-ranthambore.html" class="text-reset">Safari</a>
+          </p>
+          <p>
+            <a href="ranthambore-tour-guide.html" class="text-reset">Guide</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">Contact</h6>
+            <i class="fas fa-envelope me-0"></i>
+            bhardwajsunny550@gmail.com
+          </p>
+          <p><i class="bi bi-telephone-fill me-0"></i> + 91 636 762 4163</p>
+          <p><i class="fas fa-print me-0"></i> + 91 797 626 8400</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://wildcrews.com/">wildcrews.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- end Footer -->
+       
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/port.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>National park</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- internal Stylesheet -->
+    <style>
+      /*** Hero Header ***/
+      .hero-header {
+        background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/Indian-Tiger.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .breadcrumb-item + .breadcrumb-item::before {
+        color: rgba(255, 255, 255, .5);
+      }
+
+      /* Reseting */
+
+.COPY{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    transform-style: preserve-3d;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateX(180deg);
+}
+
+.container .box:hover .body{
+    transform: rotateX(180deg);
+}
+
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #FE0061,#FFEB3B);
+    transform: translateZ(100px);
+}
+
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+}
+    </style>
+    
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow " style="width: 3rem; height: 3rem;  color: #17A2B8;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="hero_area">
+        <header class="header_section">
+            <div class="header_top bg-dark">
+              <div class="container">
+                <div class="contact_nav">
+                  <a href="tel:6367624163">
+                    <i class="bi bi-telephone text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Call : +91 6367624163
+                    </span>
+                  </a>
+                  <a href="mailto:bhardwajsunny550@gmail.com">
+                    <i class="bi bi-envelope text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Email : bhardwajsunny550@gmail.com
+                    </span>
+                  </a>
+                  <a href="https://maps.app.goo.gl/ppohmNaqCuS2JaM76" target="_blank">
+                    <i class="bi bi-geo-alt text-primary" aria-hidden="true"></i>
+                    <span style="color: white;">
+                      Location
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <div class="nav-item dropdown">
+                    <a href="#about" class=" nav-link dropdown-toggle active" data-bs-toggle="dropdown">Destination</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">National park</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ranthambore Fort</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ganesh Temple</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Mansarover lakes</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rameshwaram ghat</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Surwal Lake</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Raj Bagh Ruins</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Toran Dwar</a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rajiv Gandhi Regional Museum </a>
+                        <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Jogi Mahal </a>
+                    </div>
+                </div>
+                    <div class="nav-item dropdown">
+                        <a href="#service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="https://www.thevillageheart.com/" class="dropdown-item">Hotel</a>
+                            <a href="online-safari-booking-ranthambore.html" class="dropdown-item">Ranthambore Safari</a>
+                            <a href="ranthambore-tour-guide.html" class="dropdown-item">Travel Guides</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#product" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="Wildcrews-Store.html" class="dropdown-item">Headphones</a>
+                            <a href="Wildcrews-Store.html" class="dropdown-item">Earbuds</a>
+                            <a href="Wildcrews-Store.html" class="dropdown-item">Smart Watches</a>
+                            <a href="Wildcrews-Store.html" class="dropdown-item">VR Headsets</a>
+                        </div>
+                    </div>
+                    <a href="package1.html" class="nav-item nav-link">Packages</a>
+                  <a href="blog.html" class="nav-item nav-link ">Blog</a>
+                </div>
+                <a href="online-safari-booking-ranthambore.html" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Wild Crews</h1>
+                        <p class="fs-4 text-white mb-4 animated slideInDown">Feel The Roar With Us</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+     <!--social media section-->
+
+     <div class="whatsapp_option">
+        <a href="	https://wa.me/916367624163" target="_blank"><img src="img/whatsapp.png" width="50px" class="_whatsapp_float_btn"/></a>
+    </div>
+
+  <div class="insta_option">
+    <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><img src="img/instagram.png"  width="50px" alt="" class="instagram_float_btn"></a>
+  </div>
+  
+  <div class="mail_option">
+    <a href="mailto:bhardwajsunny550gmail.com" target="_blank"><img src="img/mail.png"  width="50px" alt="" class="mail_float_btn"></a>
+  </div>
+  
+  <div class="call_option">
+    <a href="tel:916367624163" ><img src="img/call.png" width="50px" class="_call_float_btn"/></a>
+  </div>
+
+  <!--end social option-->
+     <!-- About Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">overview</h6>
+                    <h1 class="mb-4">Unveiling Ranthambore National Park: Your Perfect Escape into Wildlife Wonders</h1>
+                    <p class="mb-4">Step into a world where the wild roars, the birds sing, and nature's beauty knows no bounds. Ranthambore National Park beckons, offering an unparalleled experience for those with a passion for wildlife and adventure. Nestled in the heart of India, this national park is more than just a destination – it's a paradise where the rhythms of nature and the thrill of the wild converge. From the elusive Bengal tigers that reign supreme to the vibrant tapestry of flora and fauna, Ranthambore is a canvas painted with nature's most magnificent hues. Whether you're a dedicated wildlife aficionado, an avid photographer, or a curious traveler, prepare to be captivated as we embark on a journey to explore the captivating marvels of Ranthambore National Park. In this haven of conservation and natural splendor, every step unveils a new chapter in the story of the wild, and every moment is an opportunity to connect with the true essence of the wild outdoors. </p>
+                    <p class="mb-4">Nestled in the heart of India, Ranthambore National Park stands as a testament to the country's rich biodiversity and commitment to conservation. With its lush landscapes, thriving wildlife, and historical significance, Ranthambore has rightfully earned its place as one of the most revered national parks in India. </p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative">
+                        <a href="img/images.jpeg" target="_blank">
+                            <img class="img-fluid" src="img/images.jpeg" alt="national park" width="100%" height="100%"  style="object-fit: cover; ">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!---royal origins-->
+    <div class="container-xxl py-5" id="product">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Royal Origins</h6>
+                <h2 class="mb-5"> Tracing the Royal Origins of Ranthambore National Park</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">In the heart of India's wilderness, Ranthambore National Park holds within its lush embrace a history as captivating as its natural beauty. The very name "Ranthambore" whispers of ancient tales and regal splendor, harking back to a time when it served as a playground for the royalty of Rajasthan.
+                    Ranthambore's story is woven with the threads of history that connect it to the grandeur of the past. The park takes its name from the formidable Ranthambore Fort that stands sentinel over the landscape. This majestic fort, perched atop a rocky hill, once echoed with the footfalls of the royal Maharajas and their retinues. As a hunting ground for the elite, the wilderness around the fort became a canvas for their royal pursuits.
+                    In the shadows of the fort's towering walls, hunts were organized, trophies were sought, and tales of valor and adventure were etched into the annals of time. The sprawling landscapes, lush forests, and abundant water sources made Ranthambore an ideal terrain for these noble escapades. The symbiotic relationship between nature and royalty flourished, forming the foundation for the unique ecosystem that we treasure today.</p>
+                <p style="padding-bottom: 30px; text-align: center;">Beyond its role as a hunting ground, Ranthambore Fort stands as a testament to the architectural prowess of its time. Its ornate palaces, majestic gates, and intricate carvings tell stories of a bygone era, offering a glimpse into the opulence that once graced this land. With its designation as a UNESCO World Heritage Site, the fort continues to hold its head high, preserving both history and nature.
+                    As we explore the verdant landscapes of Ranthambore National Park, we tread in the footsteps of kings and queens who sought respite and adventure in its embrace. The royal origins of Ranthambore lend it an air of regal elegance, adding a layer of depth to the experiences that await us. In this convergence of history and wildlife, we uncover not only the untamed beauty of nature but also the whispers of a time when Ranthambore echoed with the sounds of royalty and the wild.</p>
+            </div>
+        </div>
+    </div>
+     <!--- end royal origins-->
+      <!--bioversicity-->
+    <div class="container-xxl py-5" id="product">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Biodiversity Galore</h6>
+                <h2 class="mb-5">Biodiversity Galore: Ranthambore National Park's Ecological Tapestry</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Ranthambore National Park, nestled in the heart of India, is a realm where nature's diversity flourishes in breathtaking abundance. From the moment you step into this natural sanctuary, you're transported into a world where every corner teems with life, colors, and wonders beyond imagination.
+                    The park's biodiversity is a living testament to the intricate dance of life that has unfolded here over centuries. Encompassing a range of ecosystems, from dry deciduous forests to grassy meadows, Ranthambore is a haven for flora and fauna alike.
+                    Amidst the rustling leaves and dappled sunlight, the park is home to a vibrant array of wildlife. Majestic Bengal tigers, with their distinctive stripes, roam these landscapes like the kings and queens they are. Leopards, with their stealthy grace, navigate the terrain with an air of mystique. Sloth bears amble along, their playful antics providing a charming spectacle.</p>
+                <p style="padding-bottom: 30px; text-align: center;">But the residents of Ranthambore extend beyond these iconic creatures. Deer species like spotted deer, sambar, and chital graze in harmony, while langurs and macaques swing through the trees. Stealthy jungle cats, elusive hyenas, and the mighty Indian wolf complete the picture of predator-prey dynamics that shape the ecosystem.
+                    As the sun dips below the horizon, the nocturnal wonders awaken. Striped hyenas venture out, owls take flight, and the night comes alive with the calls of creatures unseen.
+                    Ranthambore is also a haven for avian enthusiasts. With over 300 species of birds, the park is a symphony of calls and colors. Elegant peafowls flaunt their iridescent plumage, while raptors like eagles and hawks circle overhead. Vibrant kingfishers and parakeets add a splash of color to the lush canvas.
+                    The botanical tapestry of Ranthambore is equally mesmerizing. From sturdy banyan trees to thorny acacias, the flora here adapts to the land's seasonal rhythms. And, of course, the bodies of water scattered throughout the park's landscape are vital lifelines, attracting a myriad of species, big and small, to drink, bathe, and thrive.</p>
+                <p style="padding-bottom: 30px; text-align: center;">In Ranthambore National Park, nature's tapestry is woven with the threads of life itself. Every rustle, every roar, every flutter of wings paints a vivid picture of a world where biodiversity thrives in all its splendor. As you explore this living treasure trove, you'll witness the interconnectedness of life and the marvels of evolution, reminding us of the intricate beauty that flourishes when nature is allowed to thrive.</p>
+            </div>
+        </div>
+    </div>
+     <!--- end bioversicty-->
+      <!---bengal tiger-->
+    <div class="container-xxl py-5" id="product">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Bengal Tiger</h6>
+                <h2 class="mb-5">Roaring Royalty: The Enchanting Bengal Tigers of Ranthambore National Park</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Amidst the rugged terrains and verdant landscapes of Ranthambore National Park, a regal presence prowls—the Bengal tiger. These majestic creatures, with their distinctive stripes and commanding presence, are the crown jewels of the park's biodiversity. Each tiger's story is a chapter in the larger narrative of Ranthambore's wild legacy.</p>
+                <h4><b style=" text-align: justify;">Machali - The Legendary Matriarch</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">Machali, also known as the "Queen of Ranthambore," was a true matriarch who captured the hearts of wildlife enthusiasts worldwide. Her name derived from the markings on her face resembling a fish. Machali's valor and tenacity were legendary, earning her a prominent place in the park's history. Her prowess as a hunter and her epic battles with crocodiles cemented her status as an iconic figure. Her legacy lives on through her descendants, who continue to grace Ranthambore's landscapes.</p>
+                <h4><b style=" text-align: justify;">Ustad - The Dominant Force</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">Ustad, also known as T-24, was a dominant male tiger who ruled his territory with an iron paw. His imposing presence made him a favorite subject for photographers and visitors alike. However, Ustad's dominance came with controversies as his encounters with humans raised concerns about safety. After a series of incidents, he was translocated to another reserve, sparking debates about the complexities of human-tiger coexistence.</p>
+                <h4><b style=" text-align: justify;">Noor - The Graceful Huntress</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">Noor, or T-39, was a tigress known for her exceptional hunting skills and her ability to successfully rear cubs. Her territory included the fort area, where she often navigated the ruins with grace. Her motherly instincts and the survival of her cubs through various challenges painted a poignant picture of the resilience required for tigers to thrive in their ever-changing habitat.</p>
+                <h4><b style=" text-align: justify;">Arrowhead - The Charming Nomad</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">Arrowhead, named for the distinctive arrow-shaped mark on her forehead, was a tigress with a unique personality. Known for her habit of wandering across vast distances, she covered more ground than most tigers. Her nomadic tendencies intrigued researchers as they sought to understand the motivations behind her extensive travels.</p>
+                <h4><b style=" text-align: justify;">Krishna - The Emerging Star</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">Krishna, or T-19, rose to fame as a young tigress who established her territory near the park's lakes. Her striking appearance, characterized by a distinct "Arrowhead" mark on her forehead, captivated the attention of visitors and photographers. Her journey from a curious cub to a formidable tigress showcased the challenges and triumphs that define a tiger's life.</p>
+                <p style="padding-bottom: 30px; text-align: center;">These are just a few tales from the rich tapestry of Bengal tiger stories in Ranthambore National Park. Each tiger embodies the essence of wild beauty and survival, while their stories weave together to paint a portrait of a delicate balance between human fascination and the untamed spirit of the wilderness. As we peer into the lives of these enigmatic beings, we gain a deeper appreciation for the intricate web of life that unfolds within the park's boundaries.</p>
+            </div>
+        </div>
+    </div>
+     <!--- bengal tiger-->
+    <!--tigers card start-->
+      <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container d-flex align-items-center justify-content-center flex-wrap">
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer">
+                        <img src="img/ustad.jpg" alt="ustad-tiger">
+                    </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">Ustad - The Dominant Force</h3>
+                            <p class="fs-6 text-white">Ustad, also known as T-24, was a dominant male tiger who ruled his territory with an iron paw.</p>
+                            <div class="col-12">
+                                <a href="ustad-tiger.html"><button class="btn btn-outline-light w-100" >Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer">
+                        <img src="img/noor.jpeg" alt="noor-tiger">
+                    </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">Noor - The Graceful Huntress</h3>
+                            <p class="fs-6 text-white">Noor, or T-39, was a tigress known for her exceptional hunting skills and her ability to successfully rear cubs.</p>
+                            <div class="col-12">
+                                <a href="noor-tiger.html"><button class="btn btn-outline-light w-100" >Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer">
+                        <img src="img/krishna.jpeg" alt="krishna-tiger">
+                    </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">Krishna - The Emerging Star</h3>
+                            <p class="fs-6 text-white">Krishna, or T-19, rose to fame as a young tigress who established her territory near the park's lakes.</p>
+                            <div class="col-12">
+                                <a href="krishna-tiger.html"><button class="btn btn-outline-light w-100" >Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer">
+                        <img src="img/Arrowhead.jpeg" alt="Arrowhead-TIGER">
+                    </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">Arrowhead - The Charming Nomad</h3>
+                            <p class="fs-6 text-white">Arrowhead, named for the distinctive arrow-shaped mark on her forehead, was a tigress with a unique personality.</p>
+                            <div class="col-12">
+                                <a href="arrowhead-tiger.html"><button class="btn btn-outline-light w-100" >Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer">
+                        <img src="img/machli.webp" alt="machli-tiger">
+                    </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">Machali - The Legendary Matriarch</h3>
+                            <p class="fs-6 text-white">Machali, also known as the "Queen of Ranthambore," was a true matriarch who captured the hearts of wildlife enthusiasts worldwide</p>
+                            <div class="col-12">
+                                <a href="machli-tiger.html"><button class="btn btn-outline-light w-100" >Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--tiger card end-->
+    <!--safari-->
+    <div class="container-xxl py-5" id="product">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Safari Adventures</h6>
+            <h2 class="mb-5">Embarking on Safari Adventures in Ranthambore National Park: A Window to Wildlife</h2>
+        </div>
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <p style="padding-bottom: 30px; text-align: center;">Ranthambore Safari refers to the wildlife exploration activities conducted within Ranthambore National Park, a renowned tiger reserve and wildlife sanctuary located in the state of Rajasthan, India. It is one of the most famous and sought-after safari destinations in the country. Ranthambore National Park is celebrated for its rich biodiversity, historical significance, and, most notably, its population of Bengal tigers. The safari experience in Ranthambore offers visitors the opportunity to observe these majestic big cats and a diverse range of other wildlife species in their natural habitats.</p>
+        </div>
+    </div>
+    </div>
+    <!--- safari-->
+  <!-- typejeep Start -->
+  <div class="container-xxl py-5" id="service">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Safari Type</h6>
+            <h1 class="mb-5">types of ranthambore Safari</h1>
+        </div>
+    </div>
+</div>
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">Introduction</h6>
+                <h1 class="mb-4">Jeep Safari</h1>
+                <p class="mb-4"> In a Jeep Safari, small groups of visitors are taken on guided tours in open-top vehicles (usually 6-seater jeeps). These safaris allow for up-close encounters with wildlife, and the experienced guides provide insights into the behaviors and ecology of the animals. Jeep safaris are ideal for those seeking a more personalized and immersive experience.</p>
+                <p class="mb-4">The Jeep Safari in Ranthambore is a popular choice for wildlife enthusiasts and nature lovers who seek an intimate experience with the park's inhabitants. The open-top jeeps provide unobstructed views of the surroundings, allowing for optimal wildlife spotting and photography opportunities. Each jeep accommodates a small group of visitors, ensuring a personalized and engaging safari experience.</p>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/jeep-safari-4x4.jpg" alt="" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- type  jeep End -->
+<!-- type canter Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+      <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+              <div class="position-relative h-100">
+                  <img class="img-fluid position-absolute w-100 h-100" src="img/Canter-safari-vehicle-india-national-parks.jpg" alt="" style="object-fit: cover;">
+              </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+              <h6 class="section-title bg-white text-start text-primary pe-3">Introduction</h6>
+              <h1 class="mb-4">Canter Safari</h1>
+              <p class="mb-4">A Canter is a larger, open-top vehicle that can accommodate a larger number of visitors (usually around 20 people). Canter Safaris offer a more economical way to explore the park and observe wildlife, although the experience may be less intimate compared to a Jeep Safari.</p>
+              <p class="mb-4">Setting out during the early morning or late afternoon, when wildlife activity is at its peak, the Canter Safari takes participants on an enthralling journey through Ranthambore's varied terrain. The park's lush deciduous forests, serene lakes, and ancient ruins create a captivating backdrop for the safari, adding to the sense of excitement and anticipation.</p>
+            
+          </div>
+      </div>
+  </div>
+</div>
+<!-- type canter End -->
+  <!---experience start-->
+  <div class="container-xxl py-5" id="product">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Safari Zones</h6>
+            <h2 class="mb-5">Exploring Ranthambore's Zones: A Kaleidoscope of Wildlife Habitat</h2>
+        </div>
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <p style="padding-bottom: 30px; text-align: center;">Ranthambore National Park is a sprawling canvas of diverse ecosystems, each with its own stories to tell. Divided into several distinct zones, the park offers a variety of landscapes that host an impressive range of wildlife. Let's take a quick journey through these zones to uncover the treasures they hold:</p>
+            <h4><b style=" text-align: justify;">Zone 1: Singh Dwar</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;"> This zone is a gateway to Ranthambore's wilderness. It's known for its ancient banyan trees and is a favored territory for the elusive tigers. The historic Ranthambore Fort also graces this zone, adding a touch of cultural heritage to the natural beauty.</p>
+            <h4><b style=" text-align: justify;">Zone 2: Jogi Mahal</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;"> Situated around the park's largest lake, this zone is a haven for birdwatchers. You'll spot a variety of waterfowl and raptors here. The picturesque Jogi Mahal, a historic forest guesthouse, adds a touch of serenity to the landscape.</p>
+            <h4><b style=" text-align: justify;">Zone 3: Lahpur</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;"> Lahpur is characterized by its rugged terrain and thick vegetation. The diverse flora supports a variety of herbivores, making it a prime spot for predator sightings. The tranquil Padam Talao, a lake adorned with lotus flowers, is a highlight of this zone.</p>
+            <h4><b style=" text-align: justify;">Zone 4: Rajbagh </b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">This zone boasts a mix of dry deciduous forests and open grasslands. Its expansive meadows are a favorite grazing ground for herbivores, which, in turn, attract predators. The picturesque Rajbagh Lake adds to the charm of this diverse zone.</p>
+            <h4><b style=" text-align: justify;">Zone 5: Malik Talao</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;"> This area is defined by its water bodies, making it a magnet for both resident and migratory birds. You'll also find crocodiles basking on the banks of Malik Talao, adding an intriguing dynamic to the wildlife interactions.</p>
+            <h4><b style=" text-align: justify;"> Zone 6: Kachida Valley</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">  Known for its steep cliffs and valleys, Kachida Valley offers panoramic vistas and a chance to spot leopards. The rocky outcrops provide ideal vantage points for these elusive predators.</p>
+            <h4><b style=" text-align: justify;">Zone 7: Lakarda Anantpura</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;"> This zone is famous for its sloth bear population. The rolling hills and rocky terrains create a suitable habitat for these endearing creatures. You might also encounter hyenas and other predators.</p>
+            <h4><b style=" text-align: justify;">Zone 8: Berda:</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;"> Berda is marked by its undulating landscapes and dense forests. It's a less-visited zone, offering a quieter and more intimate safari experience. The chance of spotting tigers and other wildlife is still high.</p>
+            <p style="padding-bottom: 30px; text-align: center;">Each zone in Ranthambore National Park is a microcosm of the larger ecosystem, offering a unique perspective on the lives of its inhabitants. As you journey through these zones, you'll witness the intricate balance of nature and the captivating beauty that draws both humans and wildlife to this enchanting sanctuary.</p>
+        </div>
+    </div>
+</div>
+ <!--- exprience end-->
+  <!---experience start-->
+  <div class="container-xxl py-5" id="product">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Safari Experiences</h6>
+            <h2 class="mb-5">Safari Experiences in Ranthambore National Park: Where Adventure Meets Nature</h2>
+        </div>
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <p style="padding-bottom: 30px; text-align: center;">When the sun rises over the rugged landscapes of Ranthambore National Park, a world of wonder awakens. It's a realm where every moment is a chance to witness nature's drama unfold, where the thrill of the wild and the serenity of untouched landscapes converge. Join us as we delve into the mesmerizing safari experiences that await you in this sanctuary of biodiversity and untamed beauty.</p>
+            <h4><b style=" text-align: justify;">Wildlife Encounters</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">Brace yourself for heart-pounding encounters with the park's most iconic residents—the Bengal tigers. With their elusive yet captivating presence, these majestic creatures often steal the spotlight. However, the park's inhabitants extend beyond the tigers to include leopards, deer species, sloth bears, and an array of smaller mammals, each with their own stories to tell.</p>
+            <h4><b style=" text-align: justify;">Birdwatcher's Paradise</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">Calling all bird enthusiasts! Ranthambore's avian diversity is a symphony of colors and calls. From the mesmerizing flight of eagles to the whimsical antics of kingfishers, every tree and water body is a theater of avian delights. Binoculars in hand, you'll be treated to sightings of both resident and migratory bird species.</p>
+            <h4><b style=" text-align: justify;">Insightful Naturalist Commentary</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">Your safari guide is not just a driver but a knowledgeable naturalist who brings the park to life with their insights. Learn about animal behavior, the delicate balance of the ecosystem, and the fascinating interconnectedness of flora and fauna. Their stories and expertise add depth to every sighting.</p>
+            <h4><b style=" text-align: justify;">Photographic Opportunities</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">For photographers, Ranthambore is a dream come true. Capture the raw emotions of wildlife in their natural habitat, from the intensity of a predator's gaze to the elegance of a deer's leap. The changing light throughout the day paints different moods, ensuring each photograph is a unique masterpiece.</p>
+            <h4><b style=" text-align: justify;">Immersion in Nature</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">A safari is a chance to disconnect from the noise of modern life and immerse yourself in the rhythms of nature. As you traverse the park's trails, listen to the symphony of sounds—the rustle of leaves, the calls of birds, and the occasional roar of a predator. Feel the cool breeze and witness the untouched beauty that surrounds you.</p>
+            <h4><b style=" text-align: justify;"> Ethical Wildlife Observation</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">With great privilege comes great responsibility. Remember that you are a guest in the animals' territory. Respect their space, maintain a safe distance, and avoid disrupting their natural behaviors. Responsible wildlife observation ensures the well-being of both the creatures and their habitats.</p>
+            <h4><b style=" text-align: justify;">Unpredictable Thrills</b><br></h4>
+            <p style="padding-bottom: 30px; text-align: center;">Every safari is a journey of the unknown. While guides are skilled at tracking wildlife, nature remains unpredictable. The thrill of anticipation as you turn a corner, never knowing what might be waiting, adds an element of excitement to each moment.</p>
+            <p style="padding-bottom: 30px; text-align: center;">Ranthambore's safari experiences are not mere rides; they're gateways to a world where adventure, education, and connection with nature collide. Whether you're an adrenaline seeker, a nature lover, a photographer, or simply seeking solace in the wild, a safari in Ranthambore National Park promises moments that will forever etch themselves in your heart and memory.</p>
+        </div>
+    </div>
+</div>
+ <!--- exprience end-->
+   <!-- gallery Start -->
+   <div class="container-xxl py-5 destination">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">gallery</h6>
+            <h2 class="mb-5">Ranthambore National Park</h2>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                        <a class="position-relative d-block overflow-hidden" href="img/ranthambore-gallary.jpg" target="_blank">
+                            <img class="img-fluid" src="img/ranthambore-gallary.jpg" alt="Ranthambore-natinal-park">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden" href="img/ranthamborenationalpark.jpg" target="_blank">
+                            <img class="img-fluid" src="img/ranthamborenationalpark.jpg" alt="Ranthambore-national-park">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                        <a class="position-relative d-block overflow-hidden" href="img/ranthambore-National-park-1.png" target="_blank">
+                            <img class="img-fluid"  src="img/ranthambore-National-park-1.png" alt="Ranthambore-natinal-park"  >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="img/a.png" target="_blank">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/a.png" alt="Ranthambore-fort" style="object-fit: cover;">
+                    <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Ranthambore National Park</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- gallary end -->
+ <!-- blog section -->
+
+<div class="container-xxl py-5" id="blog" >
+    <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
+                <h1 class="mb-5">Our Blog</h1>
+            </div>  
+        <div class="row g-4 portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid " src="img/blog1.jpg" alt="Ranthambore tiger reserve">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog1.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog1.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore tiger reserve</p>
+                        <h5 class="lh-base mb-0"> popular national parks in the country</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="Ranthambore Safari">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog2.jpg" data-lightbox="portfolio" target="_blank" ><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog2.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari</p>
+                        <h5 class="lh-base mb-0">wildlife safari experience in the Ranthambore Tiger Reserve</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog3.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye "></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog3.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari zone</p>
+                        <h5 class="lh-base mb-0">multiple safari zones each offering a unique wildlife experience </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="key">
+            <a href="blog.html">
+              View All Blogs
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- blog section End -->
+<!---footer section start-->
+<footer class="text-center text-lg-start bg-dark text-white">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank" class="me-4 text-reset">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://wa.me/+916367624163" class="me-4 text-reset">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://github.com/mrkali550" target="_blank" class="me-4 text-reset">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-1 col-lg-4 col-xl-3 mx-auto mb-0">
+            <!-- Content -->
+            <img src="img/logo.png" alt="wild-crews" style="width: 60%;">
+            <h6 class="text-uppercase fw-bold mb-4"  style="font-family: 'Bagel Fat One', cursive; font-size: 150%; color: white;">
+              <i class="me-3"></i>Wild Crews
+            </h6>
+            <p>
+              Your gateway to extraordinary jungle safaris and wildlife adventures, where unforgettable encounters with nature and immersive experiences await.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+              Products
+            </h6>
+            <p>
+              <a href="wildcrews-store.html" class="text-reset">Wild Life</a>
+            </p>
+            <p>
+              <a href="wildcrews-store.html" class="text-reset">Safari Wears</a>
+            </p>
+            <p>
+              <a href="wildcrews-store.html" class="text-reset">Musical</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">
+              Services
+            </h6>
+            <p>
+              <a href="https://www.thevillageheart.com/" class="text-reset">Hotels</a>
+            </p>
+            <p>
+              <a href="online-safari-booking-ranthambore.html" class="text-reset">Safari</a>
+            </p>
+            <p>
+              <a href="ranthambore-tour-guide.html" class="text-reset">Guide</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">Contact</h6>
+              <i class="fas fa-envelope me-0"></i>
+              bhardwajsunny550@gmail.com
+            </p>
+            <p><i class="bi bi-telephone-fill me-0"></i> + 91 636 762 4163</p>
+            <p><i class="fas fa-print me-0"></i> + 91 797 626 8400</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://wildcrews.com/">wildcrews.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- end Footer -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/port.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

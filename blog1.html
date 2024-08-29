@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ranthambore tiger reserve</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <style>
+
+      /*** Hero Header ***/
+      .hero-header {
+          background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/Indian-Tiger.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+      .breadcrumb-item + .breadcrumb-item::before {
+          color: rgba(255, 255, 255, .5);
+      }
+      /*** Booking ***/
+      .booking {
+          background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../img/44199522.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        
+      }
+
+      .booking form .form-control {
+          border: 1px solid #17A2B8;
+          outline: #17a2b8;
+          -webkit-box-shadow:var(--primary);
+              box-shadow: #17A2B8;
+          padding: 0 15px;
+      }
+
+      .map_container {
+          height: 100%;
+          min-height: 375px;
+      }
+      
+      .map_container .map-responsive {
+          height: 100%;
+      }
+      
+    </style>
+</head>
+
+<body>
+     <!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+  <div class="spinner-grow " style="width: 3rem; height: 3rem;  color: #17A2B8;" role="status">
+      <span class="sr-only">Loading...</span>
+  </div>
+</div>
+<!-- Spinner End -->
+    <!-- Topbar Start -->
+    <div class="hero_area">
+        <header class="header_section">
+            <div class="header_top bg-dark">
+              <div class="container">
+                <div class="contact_nav">
+                  <a href="tel:6367624163">
+                    <i class="bi bi-telephone text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Call : +91 6367624163
+                    </span>
+                  </a>
+                  <a href="mailto:bhardwajsunny550@gmail.com">
+                    <i class="bi bi-envelope text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Email : bhardwajsunny550@gmail.com
+                    </span>
+                  </a>
+                  <a href="https://maps.app.goo.gl/ppohmNaqCuS2JaM76" target="_blank">
+                    <i class="bi bi-geo-alt text-primary" aria-hidden="true"></i>
+                    <span style="color: white;">
+                      Location
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+          <a href="" class="navbar-brand p-0">
+              <img src="img/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="index.html" class="nav-item nav-link ">Home</a>
+                  <div class="nav-item dropdown">
+                  <a href="#about" class=" nav-link dropdown-toggle" data-bs-toggle="dropdown">Destination</a>
+                  <div class="dropdown-menu m-0">
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">National park</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ranthambore Fort</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ganesh Temple</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Mansarover lakes</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rameshwaram ghat</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Surwal Lake</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Raj Bagh Ruins</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Toran Dwar</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rajiv Gandhi Regional Museum </a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Jogi Mahal </a>
+                  </div>
+              </div>
+                  <div class="nav-item dropdown">
+                      <a href="#service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="https://www.thevillageheart.com/" class="dropdown-item">Hotel</a>
+                          <a href="online-safari-booking-ranthambore.html" class="dropdown-item">Ranthambore Safari</a>
+                          <a href="ranthambore-tour-guide.html" class="dropdown-item">Travel Guides</a>
+                      </div>
+                  </div>
+                  <div class="nav-item dropdown">
+                      <a href="#product" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Headphones</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Earbuds</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Smart Watches</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">VR Headsets</a>
+                      </div>
+                  </div>
+                  <a href="package1.html" class="nav-item nav-link">Packages</a>
+                  <a href="blog.html" class="nav-item nav-link active">Blog</a>
+              </div>
+              <a href="online-safari-booking-ranthambore.html" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
+          </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+          <div class="container py-5">
+              <div class="row justify-content-center py-5">
+                  <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                      <h1 class="display-3 text-white mb-3 animated slideInDown">Wild Crews</h1>
+                      <p class="fs-4 text-white mb-4 animated slideInDown">Feel The Roar With Us</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Navbar & Hero End -->
+     <!-- About Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">overview</h6>
+                    <h1 class="mb-4">Ranthambore tiger reserve</h1>
+                    <p class="mb-4">Welcome to Ranthambore National Park, a wildlife enthusiast's paradise and a nature lover's dream come true. Nestled in the rugged terrains of Rajasthan, India, this iconic national park is famous for its thriving tiger population, diverse wildlife, and captivating landscapes. Join us as we embark on an unforgettable journey through the untamed wilderness of Ranthambore, where every corner holds the promise of a breathtaking encounter with nature's finest creations.Ranthambhore Tiger Reserve is a famous wildlife sanctuary located in the state of Rajasthan, India.  </p>
+                    <p class="mb-4">It is one of the most well-known and popular national parks in the country. The reserve is named after the Ranthambhore Fort, which is located within its boundaries. Established in 1980, it was declared a national park in 1981 and later became a Tiger Reserve under Project Tiger in 1973.</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/ranthambhorereserve.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+     <!--timing Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/Ranthambore-Tiger-Reserve-Photo-Images-1200x900.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Timing</h6>
+                    <h1 class="mb-4">Timing of Ranthambore Tiger Reserve</h1>
+                    <p class="mb-4">Ranthambore Tiger Reserve's safari timings are divided into morning and afternoon sessions. Morning safaris usually start around 6:00 AM to 6:30 AM and continue until late morning. Afternoon safaris begin in the late afternoon, typically between 2:30 PM to 3:00 PM, and end before sunset. The exact timings may vary slightly based on the season and the official schedule set by the reserve authorities. Visitors are advised to arrive at the safari entrance gate well before the designated time to complete necessary formalities and ensure a smooth entry into the reserve for an unforgettable wildlife experience. </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- timing End -->
+    <!--bioversity start-->
+    <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Biodiversity</h6>
+                <h1 class="mb-5">Biodiversity of Ranthambhore Tiger Reserve</h1>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Ranthambhore Tiger Reserve is renowned for its rich biodiversity, making it one of the most diverse and significant wildlife sanctuaries in India. The reserve's diverse ecosystems, ranging from dry deciduous forests to open grasslands and lakes, support a wide array of flora and fauna. it also Known for its thriving population of Bengal tigers, Ranthambore Tiger Reserve is a biodiversity hotspot, home to various other wildlife species, including leopards, sloth bears, deer, and a wide variety of birds. Its unique location, historical significance, and abundant wildlife make Ranthambore a premier destination for nature enthusiasts and wildlife lovers from around the world. Here are some key aspects of the biodiversity found in Ranthambhore Tiger Reserve:</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;"> Bengal Tigers: </b>The reserve is famous for its tiger population, and the majestic Bengal tiger (Panthera tigris tigris) is the star attraction. Ranthambhore is considered one of the best places in India to spot tigers in their natural habitat. </p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"> <b style="color: black;">Leopards:</b> Besides tigers, the reserve is also home to a healthy population of leopards (Panthera pardus). Though more elusive than tigers, leopards can be spotted in the dense forests and rocky terrains of the park.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">    
+                 <p class="intro"> <b style="color: black;"> Other Carnivores:</b> Ranthambhore Tiger Reserve is inhabited by various carnivorous species, including jungle cats, striped hyenas, jackals, and Indian foxes.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"> <b style="color: black;"> Herbivores:</b> The park supports a diverse range of herbivores, including spotted deer (chital), sambar deer, nilgai (blue bull), Indian gazelles (chinkara), and wild boars.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;"> Sloth Bears:</b> The reserve is also known for its population of sloth bears, which can be spotted in the forests and around the water bodies.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;">Birdlife:</b> Ranthambhore is a paradise for birdwatchers, with over 300 species of birds recorded in the park. This includes both resident and migratory birds like peafowls, eagles, vultures, owls, kingfishers, and numerous waterfowl.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;"> Reptiles: </b>The park is home to a variety of reptiles, including marsh crocodiles, Indian pythons, Russell's vipers, and many species of lizards and turtles.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;"> Flora:</b> Ranthambhore Tiger Reserve boasts a diverse range of flora, with over 300 species of plants. The vegetation includes dry deciduous forests, open grasslands, and thorny forests dominated by dhok trees, mango groves, and banyan trees.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;"> Water Bodies:</b> The park's lakes and water bodies, such as Padam Talab, Rajbagh Talao, and Malik Talao, attract a wide variety of wildlife, particularly during the dry season when water is scarce.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p>The incredible biodiversity of Ranthambhore Tiger Reserve makes it a crucial conservation area and an exciting destination for wildlife enthusiasts, nature lovers, and photographers alike. The park's management and various conservation initiatives play a vital role in protecting these precious ecosystems and ensuring the survival of the magnificent wildlife that calls Ranthambhore home.
+                   The coexistence of such a wide range of species makes Ranthambhore Tiger Reserve a unique and ecologically significant ecosystem. The park's conservation efforts and protected status have played a crucial role in preserving this rich biodiversity, providing a vital sanctuary for these remarkable creatures and maintaining the delicate balance of nature.
+                 </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <img src="img/ranthambore tiger reserve.jpg" alt="ranthambore tiger reserve" style="width: 100%;"/>
+    </div>
+   <!--bioversity End-->
+   <!--habitat start-->
+    <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Habitat</h6>
+                <h1 class="mb-5">Habitat of Ranthambore Tiger Reserve</h1>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">The Ranthambore Tiger Reserve features a diverse and varied habitat, which contributes to its rich biodiversity and makes it an ideal sanctuary for a wide range of wildlife species.The Ranthambore Tiger Reserve boasts a diverse and captivating habitat that is the foundation of its thriving biodiversity. Dominated by dry deciduous forests, the reserve's landscape features a mix of dhok, salai, tendu, and khair trees. Vast open grasslands interspersed with rocky hills and outcrops provide ideal grazing grounds for herbivores and refuge for predators like tigers and leopards. The reserve's landscape consists of the following primary habitats:</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;"> Dry Deciduous Forests: </b>The largest habitat type in Ranthambore Tiger Reserve is the dry deciduous forests. These forests are characterized by trees that shed their leaves during the dry season to conserve water. The dominant tree species in this habitat include dhok (Anogeissus pendula), salai (Boswellia serrata), tendu (Diospyros melanoxylon), and khair (Acacia catechu).  </p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"> <b style="color: black;">Open Grasslands:</b> The reserve also contains vast open grasslands, which provide essential grazing areas for herbivores like spotted deer (chital), sambar deer, and nilgai (blue bull). These open areas offer excellent visibility for both predators and prey.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">    
+                 <p class="intro"> <b style="color: black;">Lakes and Water Bodies:</b> Ranthambore Tiger Reserve is dotted with several lakes and water bodies, such as Padam Talao, Rajbagh Talao, and Malik Talao. These water sources are critical for the survival of wildlife during the dry season, attracting animals from all around to quench their thirst.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"> <b style="color: black;">Hills and Rocky Outcrops:</b>The reserve is home to rocky hills and outcrops, providing shelter and vantage points for various wildlife species, including tigers and leopards. The iconic Ranthambore Fort is situated on one of these hills within the reserve.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p class="intro"><b style="color: black;">Riparian Vegetation:</b> The areas around water bodies are characterized by riparian vegetation, which consists of plant species adapted to thrive in wet conditions. This habitat is crucial for supporting aquatic life and attracting a diverse range of bird species.</p>
+            </div>
+            <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                 <p>The combination of these diverse habitats within the Ranthambore Tiger Reserve creates a mosaic of ecosystems, each catering to the unique needs of various wildlife species. This rich variety of habitats contributes to the reserve's exceptional biodiversity and offers visitors a chance to experience a wide array of wildlife and scenic landscapes during their safaris and explorations. The convergence of these unique habitats ensures Ranthambore Tiger Reserve's significance as a sanctuary for iconic Bengal tigers and a plethora of other captivating wildlife, offering visitors an extraordinary glimpse into the wonders of nature. 
+                 </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <img src="img/a1.jpg" alt="ranthambore tiger reserve" style="width: 100%;"/>
+    </div>
+   <!--habititat end-->
+   <!--safari start-->
+    <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Safari</h6>
+                <h1 class="mb-5">Safari in ranthambore tiger reserve</h1>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Tiger safaris in Ranthambore Tiger Reserve provide a thrilling and immersive experience into the heart of the wild. As one of India's most renowned national parks, Ranthambore is famous for its thriving tiger population, making it a top destination for wildlife enthusiasts and photographers from around the world.</p>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">The safari adventure begins early in the morning or late afternoon, when visitors board open-top safari vehicles such as jeeps or canters. Accompanied by trained naturalist guides, the safari takes you through the diverse habitats of the reserve, including dry deciduous forests, open grasslands, and picturesque lakes.</p>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">During the safari, the naturalists skillfully track and interpret signs of tiger activity, increasing the chances of encountering these elusive felines. The excitement of spotting a tiger in its natural habitat, silently moving through the wilderness, is an unforgettable moment that leaves visitors in awe of nature's grandeur.</p>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Apart from tigers, Ranthambore safaris offer sightings of various other wildlife species, such as leopards, deer, wild boars, langurs, and a plethora of birdlife. The reserve's diverse ecosystem ensures an incredible array of flora and fauna for visitors to marvel at.</p>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Ranthambore's strict conservation measures and responsible tourism practices ensure that the safaris have minimal impact on the wildlife and their environment. Following the park's guidelines, visitors maintain silence, stay within designated safari tracks, and respect the natural behaviors of the animals.</p>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">Tiger safaris in Ranthambore Tiger Reserve provide an immersive and educational experience, fostering a deeper appreciation for wildlife conservation and leaving visitors with lasting memories of encountering the magnificent tigers and the untamed beauty of nature.</p>
+            </div>
+        </div>
+    </div>
+    <div  class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <img src="img/image.jpeg" alt="ranthambore tiger reserve" style="width: 100%;" />
+    </div>
+   <!--safari end-->
+
+     <!-- location Start -->
+     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="booking p-5 row">
+                <div class="col-md-6 px-0">
+                    <div class="map_container">
+                      <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457457.5480788516!2d75.87003453797443!3d26.39483508222868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3971d8f668d65517%3A0x6eb9f78b60bac925!2sRanthambore%20National%20Park!5e0!3m2!1sen!2sin!4v1690624581418!5m2!1sen!2sin" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                </div>
+                    <div class="col-md-6" style="text-align: center; margin-top: 100px;">
+                        <h1 class="text-white mb-4">Location</h1>
+                        <p>Ranthambore Tiger Reserve is located in the Sawai Madhopur district of Rajasthan, India. Spread across an area of approximately 392 square kilometers (151 square miles), the reserve is situated at the junction of the Aravali and Vindhya hill ranges. Its geographic coordinates are approximately 26.0173° N latitude and 76.5026° E longitude.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- location Start -->
+
+<!-- blog section -->
+
+<div class="container-xxl py-5" id="blog" >
+    <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
+                <h1 class="mb-5">Our Blog</h1>
+            </div>  
+        <div class="row g-4 portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid " src="img/blog1.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog1.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog1.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore tiger reserve</p>
+                        <h5 class="lh-base mb-0"> popular national parks in the country</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog2.jpg" data-lightbox="portfolio" target="_blank" ><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog2.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari</p>
+                        <h5 class="lh-base mb-0">wildlife safari experience in the Ranthambore Tiger Reserve</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog3.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye "></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog3.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari zone</p>
+                        <h5 class="lh-base mb-0">multiple safari zones each offering a unique wildlife experience </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="key">
+            <a href="blog.html">
+              View All Blogs
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- blog section End -->
+<!---footer section start-->
+<footer class="text-center text-lg-start bg-dark text-white">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/+916367624163" class="me-4 text-reset">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://github.com/mrkali550" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-1 col-lg-4 col-xl-3 mx-auto mb-0">
+          <!-- Content -->
+          <img src="img/logo.png" alt="wild-crews" style="width: 60%;">
+          <h6 class="text-uppercase fw-bold mb-4"  style="font-family: 'Bagel Fat One', cursive; font-size: 150%; color: white;">
+            <i class="me-3"></i>Wild Crews
+          </h6>
+          <p>
+            Your gateway to extraordinary jungle safaris and wildlife adventures, where unforgettable encounters with nature and immersive experiences await.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+            Products
+          </h6>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Wild Life</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Safari Wears</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Musical</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">
+            Services
+          </h6>
+          <p>
+            <a href="https://www.thevillageheart.com/" class="text-reset">Hotels</a>
+          </p>
+          <p>
+            <a href="online-safari-booking-ranthambore.html" class="text-reset">Safari</a>
+          </p>
+          <p>
+            <a href="ranthambore-tour-guide.html" class="text-reset">Guide</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">Contact</h6>
+            <i class="fas fa-envelope me-0"></i>
+            bhardwajsunny550@gmail.com
+          </p>
+          <p><i class="bi bi-telephone-fill me-0"></i> + 91 636 762 4163</p>
+          <p><i class="fas fa-print me-0"></i> + 91 797 626 8400</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://wildcrews.com/">wildcrews.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- end Footer -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/port.js"></script>
+    
+</body>
+</html>

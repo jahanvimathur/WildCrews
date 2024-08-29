@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Raj Bagh Ruins</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- internal Stylesheet -->
+    <style>
+      /*** Hero Header ***/
+      .hero-header {
+        background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/RajBaghRuinsbg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .breadcrumb-item + .breadcrumb-item::before {
+        color: rgba(255, 255, 255, .5);
+      }
+
+      .map_container {
+                height: 100%;
+                min-height: 375px;
+            }
+            
+      .map_container .map-responsive {
+                height: 100%;
+            }
+    </style>
+    
+</head>
+
+<body>
+     <!-- Spinner Start -->
+     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-grow " style="width: 3rem; height: 3rem;  color: #17A2B8;" role="status">
+          <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="hero_area">
+        <header class="header_section">
+            <div class="header_top bg-dark">
+              <div class="container">
+                <div class="contact_nav">
+                  <a href="tel:6367624163">
+                    <i class="bi bi-telephone text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Call : +91 6367624163
+                    </span>
+                  </a>
+                  <a href="mailto:bhardwajsunny550@gmail.com">
+                    <i class="bi bi-envelope text-primary" aria-hidden="true"></i>
+                    <span style="color: white;" >
+                      Email : bhardwajsunny550@gmail.com
+                    </span>
+                  </a>
+                  <a href="https://maps.app.goo.gl/ppohmNaqCuS2JaM76" target="_blank">
+                    <i class="bi bi-geo-alt text-primary" aria-hidden="true"></i>
+                    <span style="color: white;">
+                      Location
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+          <a href="" class="navbar-brand p-0">
+              <img src="img/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Home</a>
+                  <div class="nav-item dropdown">
+                  <a href="#about" class=" nav-link dropdown-toggle active" data-bs-toggle="dropdown">Destination</a>
+                  <div class="dropdown-menu m-0">
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">National park</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ranthambore Fort</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ganesh Temple</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Mansarover lakes</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rameshwaram ghat</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Surwal Lake</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Raj Bagh Ruins</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Toran Dwar</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rajiv Gandhi Regional Museum </a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Jogi Mahal </a>
+                  </div>
+              </div>
+                  <div class="nav-item dropdown">
+                      <a href="#service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="https://www.thevillageheart.com/" class="dropdown-item">Hotel</a>
+                          <a href="online-safari-booking-ranthambore.html" class="dropdown-item">Ranthambore Safari</a>
+                          <a href="ranthambore-tour-guide.html" class="dropdown-item">Travel Guides</a>
+                      </div>
+                  </div>
+                  <div class="nav-item dropdown">
+                      <a href="#product" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Headphones</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Earbuds</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Smart Watches</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">VR Headsets</a>
+                      </div>
+                  </div>
+                  <a href="package1.html" class="nav-item nav-link">Packages</a>
+                  <a href="blog.html" class="nav-item nav-link ">Blog</a>
+              </div>
+              <a href="online-safari-booking-ranthambore.html" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
+          </div>
+      </nav>
+
+      <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+          <div class="container py-5">
+              <div class="row justify-content-center py-5">
+                  <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                      <h1 class="display-3 text-white mb-3 animated slideInDown">Wild Crews</h1>
+                      <p class="fs-4 text-white mb-4 animated slideInDown">Feel The Roar With Us</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Navbar & Hero End -->
+     <!--social media section-->
+
+     <div class="whatsapp_option">
+        <a href="	https://wa.me/916367624163" target="_blank"><img src="img/whatsapp.png" width="50px" class="_whatsapp_float_btn"/></a>
+    </div>
+
+  <div class="insta_option">
+    <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><img src="img/instagram.png"  width="50px" alt="" class="instagram_float_btn"></a>
+  </div>
+  
+  <div class="mail_option">
+    <a href="mailto:bhardwajsunny550gmail.com" target="_blank"><img src="img/mail.png"  width="50px" alt="" class="mail_float_btn"></a>
+  </div>
+  
+  <div class="call_option">
+    <a href="tel:916367624163" ><img src="img/call.png" width="50px" class="_call_float_btn"/></a>
+  </div>
+
+  <!--end social option-->
+     <!-- About Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">overview</h6>
+                    <h1 class="mb-4">Lost in Time: Raj Bagh Ruins of Sawai Madhopur's Royal Legacy</h1>
+                    <p class="mb-4">The Raj Bagh Ruins, nestled in the heart of Sawai Madhopur, Rajasthan, are an enchanting testament to the region's rich history and royal grandeur. Dating back to the 18th century during the reign of Maharaja Sawai Madho Singh I, this sprawling palace complex was originally designed as an opulent retreat for the royal family. Its strategic location along the picturesque Banas River, flanked by lush greenery, made it the perfect oasis for both leisure and hunting.</p>
+                    <p class="mb-4">Today, the Raj Bagh Ruins stand as an architectural marvel in a state renowned for its grandeur. The site boasts a variety of structures, including a magnificent palace, exquisitely carved walls, a beautifully landscaped garden, a charming pavilion, and a watchtower offering panoramic vistas of the surrounding landscape. These ruins not only reflect the exceptional craftsmanship of Rajasthan's artisans but also provide a unique window into the history and lifestyle of its erstwhile rulers.The Raj Bagh Ruins are remnants of a once-magnificent palace complex that was built during the reign of Maharaja Sawai Madho Singh I in the 18th century. Located on the banks of the Banas River, this palace complex was constructed as a hunting retreat for the royal family </p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative">
+                      <a href="img/rajbaghruin3.jpg" target="_blank">
+                        <img class="img-fluid" src="img/rajbaghruin3.jpg" alt="Raj Bagh Ruins" width="100%"  style="object-fit: cover; ">
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+     <!--- Architecture-->
+     <div class="container-xxl py-5" >
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3"> Architecture</h6>
+                <h2 class="mb-5">Raj Bagh Ruins: Where Artistry and Architecture Converge</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">The Raj Bagh Ruins in Sawai Madhopur, Rajasthan, stand as timeless architectural marvels that showcase the grandeur of Rajput craftsmanship. These ruins transport visitors back to a bygone era, revealing intricate details and design elements that continue to captivate the imagination. The Raj Bagh Ruins stand as a testament to the architectural grandeur of Rajasthan. These ruins, dating back to the 18th century, showcase the finest examples of Rajput architecture. The complex comprises a magnificent palace adorned with intricate stone carvings, displaying the artistic prowess of the era's craftsmen. The meticulously landscaped gardens, reminiscent of Mughal influences, provide a serene contrast to the rugged surroundings. The pavilion, with its ornate columns and arches, transports visitors to a bygone era of opulence. The watchtower, perched strategically, not only served a functional purpose but also demonstrates the architectural brilliance of the time. The harmonious blend of these elements creates an architectural tapestry that continues to captivate visitors, offering a glimpse into the rich heritage of Rajasthan.</p>
+                <p style="padding-bottom: 30px; text-align: center;">The most striking feature of these architectural wonders is the intricate stone carvings that adorn the palace walls. Delicate filigree work, ornate motifs, and exquisite patterns tell stories of the skilled artisans who crafted them centuries ago. The sheer precision and artistry on display are a testament to the opulence of the Rajput rulers who once inhabited this palace. Walking through the remnants of the palace complex, one can't help but marvel at the fusion of Mughal and Rajput architectural styles, blending seamlessly to create a unique and harmonious structure.</p>
+                <p style="padding-bottom: 30px; text-align: center;">Moreover, the Raj Bagh Ruins boast a beautifully landscaped garden that adds to the allure of the site. The garden, with its manicured lawns, fragrant flowers, and serene fountains, reflects the aesthetic sensibilities of the royals. This verdant oasis in the heart of the desert state is a testament to their desire for natural beauty and tranquility. The garden provides a striking contrast to the rugged terrain of Rajasthan and is a testament to the ability of the Rajput rulers to create an oasis of calm and beauty amidst the arid surroundings.</p>
+            </div>
+        </div>
+    </div>
+      <!--- Architecture-->
+     <!---Reach-->
+     <div class="container-xxl py-5" >
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Reach</h6>
+                <h2 class="mb-5">Navigating the Path: How to Reach Raj Bagh Ruins</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">To reach the Raj Bagh Ruins in Sawai Madhopur, Rajasthan, you can follow these steps:</p>
+                <h4><b style=" text-align: justify;"> Arrive in Sawai Madhopur</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;"> The nearest major city is Jaipur. You can reach Sawai Madhopur by train or road from Jaipur or other major cities in Rajasthan.</p>
+                <h4><b style=" text-align: justify;"> BLocal Transportation</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;"> Once in Sawai Madhopur, you can hire a taxi or take a local auto-rickshaw to reach the Raj Bagh Ruins.</p>
+                <h4><b style=" text-align: justify;">Location</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;">The Raj Bagh Ruins are situated near the Banas River, not far from Sawai Madhopur town center.</p>
+                <h4><b style=" text-align: justify;"> Local Guides</b><br></h4>
+                <p style="padding-bottom: 30px; text-align: center;"> Consider hiring a local guide who can provide historical insights and help you navigate the ruins effectively.</p>
+                <p style="padding-bottom: 30px; text-align: center;"> Remember to check the visiting hours and any entry fees before your trip, as they may vary.</p>
+            </div>
+        </div>
+    </div>
+      <!---Reach-->
+     <!---Watchtower-->
+     <div class="container-xxl py-5" >
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Watchtower</h6>
+                <h2 class="mb-5">Raj Bagh Ruins Watchtower: A Sentinel of the Royals</h2>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p style="padding-bottom: 30px; text-align: center;">The watchtower at the Raj Bagh Ruins in Sawai Madhopur stands as a strategic jewel, offering a unique glimpse into the architectural ingenuity of its time. This towering structure, strategically positioned within the palace complex, served a dual purpose in the days of its glory.</p>
+                <p style="padding-bottom: 30px; text-align: center;">irst and foremost, the watchtower was a sentinel, providing a vantage point from which the royals and their guards could keep a vigilant eye on the surrounding hunting grounds. This vantage point was crucial for the success of royal hunts, allowing them to spot wildlife from afar and plan their hunting strategies effectively. The watchtower's strategic location played a pivotal role in ensuring the safety and security of the royal family during their hunting expeditions.</p>
+                <p style="padding-bottom: 30px; text-align: center;">Secondly, the watchtower's elevation also afforded breathtaking panoramic views of the picturesque landscape surrounding the palace. From its lofty heights, one could gaze upon the lush gardens, the flowing Banas River, and the rugged terrain of Rajasthan. Today, visitors who ascend the watchtower are rewarded with these same magnificent views, offering a sense of the natural beauty that drew the royals to this tranquil retreat.</p>
+                <p style="padding-bottom: 30px; text-align: center;">The watchtower at the Raj Bagh Ruins is not only a testament to the strategic acumen of its builders but also a symbol of the harmonious integration of practicality and aesthetics in Rajput architecture. It continues to stand as a captivating piece of history, offering a glimpse into the past while providing modern-day explorers with a spectacular perspective on the timeless beauty of Sawai Madhopur's landscape.</p>
+            </div>
+        </div>
+    </div>
+      <!---Watchtower-->
+        <!--- History-->
+    <div class="container-xxl py-5" >
+      <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center text-primary px-3"> History</h6>
+              <h2 class="mb-5">A Stroll Through History: Raj Bagh Ruins</h2>
+          </div>
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <p style="padding-bottom: 30px; text-align: center;">The history of the Raj Bagh Ruins is a fascinating journey through time, deeply rooted in the rich tapestry of Rajasthan's royal heritage. These ruins, situated in Sawai Madhopur, are remnants of a once-splendid palace complex, and their history is closely entwined with the legacy of the Rajput rulers.</p>
+              <h4><b style=" text-align: justify;"> 18th Century Origins</b><br></h4>
+              <p style="padding-bottom: 30px; text-align: center;">The Raj Bagh Ruins trace their origins back to the 18th century when Maharaja Sawai Madho Singh I, the founder of Sawai Madhopur, ordered the construction of this magnificent palace complex. The purpose was to create a retreat for the royal family, a place where they could indulge in leisurely pursuits, hunting, and escape the scorching Rajasthan summers.</p>
+              <h4><b style=" text-align: justify;">A Blend of Architectural Styles</b><br></h4>
+              <p style="padding-bottom: 30px; text-align: center;"> The architecture of Raj Bagh is a testament to the fusion of Mughal and Rajput styles. This amalgamation resulted in a unique and harmonious design, showcasing intricate stone carvings, ornate motifs, and a layout that exemplified the opulence of the era.</p>
+              <h4><b style=" text-align: justify;"> Royal Retreat</b><br></h4>
+              <p style="padding-bottom: 30px; text-align: center;">   The Banas River, flowing adjacent to the palace, added to its charm. It not only provided a picturesque setting but also served practical purposes like water supply and facilitating leisurely boat rides for the royal family.</p>
+              <h4><b style=" text-align: justify;">Abandonment and Decline</b><br></h4>
+              <p style="padding-bottom: 30px; text-align: center;"> The decline of Raj Bagh began in the 19th century when the British colonial administration took control of the region. The palace was subsequently abandoned, and over time, it fell into disrepair, with nature reclaiming much of its grandeur.</p>
+              <h4><b style=" text-align: justify;">Preservation and Tourism</b><br></h4>
+              <p style="padding-bottom: 30px; text-align: center;">In recent years, efforts have been made to preserve and showcase the historical significance of the Raj Bagh Ruins. Today, these ruins are a popular tourist attraction, drawing history enthusiasts, photographers, and travelers looking to immerse themselves in the heritage of Rajasthan.</p>
+              <h4><b style=" text-align: justify;">Symbol of Rajasthan's Royal Legacy</b><br></h4>
+              <p style="padding-bottom: 30px; text-align: center;">The Raj Bagh Ruins stand as a symbol of Rajasthan's royal legacy and architectural prowess. They offer a glimpse into the opulent lifestyle of the Rajput rulers and provide a unique opportunity to step back in time and imagine the palace's grandeur during its heyday.</p>
+              <p style="padding-bottom: 30px; text-align: center;">Visiting the Raj Bagh Ruins is not just a journey through history; it's a chance to connect with the spirit of Rajasthan's regal past and appreciate the enduring beauty of its architectural treasures.
+              </p>
+            </div>
+      </div>
+  </div>
+   <!---  History-->
+      <!-- gallery Start -->
+   <div class="container-xxl py-5 destination">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">gallery</h6>
+            <h2 class="mb-5">Raj Bagh Ruins</h2>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                        <a class="position-relative d-block overflow-hidden" href="img/RajBaghRuinsbg.jpg" target="_blank">
+                            <img class="img-fluid" src="img/RajBaghRuinsbg.jpg" alt="Raj Bagh Ruins" width="100%">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden" href="img/RajBaghRuins1.jpg" target="_blank">
+                            <img class="img-fluid" src="img/RajBaghRuins1.jpg" alt="Raj Bagh Ruins">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                        <a class="position-relative d-block overflow-hidden" href="img/RajBaghRuins.jpg" target="_blank">
+                            <img class="img-fluid"  src="img/RajBaghRuins.jpg" alt="Raj Bagh Ruins"  >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="img/RajBaghRuins2.jpg" target="_blank">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/RajBaghRuins2.jpg" alt="Raj Bagh Ruins" style="object-fit: cover;">
+                    <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Raj Bagh Ruins</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- gallary end -->
+ <!-- location Start -->
+ <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="booking p-5 row">
+            <div class="col-md-6 px-0">
+                <div class="map_container">
+                  <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7170.191276532471!2d76.45592454901443!3d26.030426614046018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3971d89a3ab0b903%3A0xe8442270d53e8861!2sRajbagh!5e0!3m2!1sen!2sin!4v1695398405792!5m2!1sen!2sin" width="600" height="300" style="border:0;  width: 100%; height:100%" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+            </div>
+                <div class="col-md-6" style="text-align: center; margin-top: 100px;">
+                    <h1 class="text-white mb-4">Location</h1>
+                    <p>The Raj Bagh Ruins are located in Sawai Madhopur, a town in the state of Rajasthan, India. Sawai Madhopur is well-known for its proximity to the Ranthambore National Park, and the Raj Bagh Ruins are situated within this town. They are situated near the Banas River, providing a picturesque backdrop to these historical remnants. When visiting Sawai Madhopur, you can easily access the Raj Bagh Ruins, which offer a fascinating glimpse into Rajasthan's rich heritage and history.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- location end -->
+ <!-- blog section -->
+
+<div class="container-xxl py-5" id="blog" >
+    <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
+                <h1 class="mb-5">Our Blog</h1>
+            </div>  
+        <div class="row g-4 portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid " src="img/blog1.jpg" alt="Ranthambore tiger reserve">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog1.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog1.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore tiger reserve</p>
+                        <h5 class="lh-base mb-0"> popular national parks in the country</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="Ranthambore Safari">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog2.jpg" data-lightbox="portfolio" target="_blank" ><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog2.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari</p>
+                        <h5 class="lh-base mb-0">wildlife safari experience in the Ranthambore Tiger Reserve</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog3.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye "></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog3.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari zone</p>
+                        <h5 class="lh-base mb-0">multiple safari zones each offering a unique wildlife experience </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="key">
+            <a href="blog.html">
+              View All Blogs
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- blog section End -->
+<!--  start question section-->
+
+<div class="container-xxl py-5" id="blog" >
+  <div class="container">
+          <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center text-primary px-3">Questions</h6>
+              <h1 class="mb-5">Frequently Asked Questions</h1>
+          </div>  
+<section class="question_section">
+      <div class="text-center pb-4 wow fadeInUp " data-wow-delay="0.1s">
+          <div class="faq">
+              <button class="accordion">
+                  <span>What are the typical visiting hours for the Raj Bagh Ruins in Sawai Madhopur?</span>
+                  <span><i class="fas fa-chevron-down"></i></span>
+              </button>
+              <div class="pannel">
+                  <p>
+                    The visiting hours for the Raj Bagh Ruins in Sawai Madhopur typically follow a standard schedule. The ruins are open to visitors from early morning to late afternoon, with operating hours generally spanning from around 8:00 AM to 5:00 PM. It's advisable to check the specific visiting hours before planning your trip, as they may be subject to change based on the season and any local regulations. Arriving during the morning hours not only allows you to explore the ruins comfortably but also offers the advantage of cooler temperatures, especially during the hot summer months. Additionally, visiting during the early part of the day provides ample time to soak in the historical and architectural wonders of the site.
+                  </p>
+              </div>
+          </div>
+      </div>
+    
+  </div>
+  </div>
+</section>
+<!--end question section-->
+ <!---footer section start-->
+<footer class="text-center text-lg-start bg-dark text-white">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/+916367624163" class="me-4 text-reset">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://github.com/mrkali550" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-1 col-lg-4 col-xl-3 mx-auto mb-0">
+          <!-- Content -->
+          <img src="img/logo.png" alt="wild-crews" style="width: 60%;">
+          <h6 class="text-uppercase fw-bold mb-4"  style="font-family: 'Bagel Fat One', cursive; font-size: 150%; color: white;">
+            <i class="me-3"></i>Wild Crews
+          </h6>
+          <p>
+            Your gateway to extraordinary jungle safaris and wildlife adventures, where unforgettable encounters with nature and immersive experiences await.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+            Products
+          </h6>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Wild Life</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Safari Wears</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Musical</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">
+            Services
+          </h6>
+          <p>
+            <a href="https://www.thevillageheart.com/" class="text-reset">Hotels</a>
+          </p>
+          <p>
+            <a href="online-safari-booking-ranthambore.html" class="text-reset">Safari</a>
+          </p>
+          <p>
+            <a href="ranthambore-tour-guide.html" class="text-reset">Guide</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">Contact</h6>
+            <i class="fas fa-envelope me-0"></i>
+            bhardwajsunny550@gmail.com
+          </p>
+          <p><i class="bi bi-telephone-fill me-0"></i> + 91 636 762 4163</p>
+          <p><i class="fas fa-print me-0"></i> + 91 797 626 8400</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://wildcrews.com/">wildcrews.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- end Footer -->
+       
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/port.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

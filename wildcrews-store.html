@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>wild Crews</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <style>
+      /*** Hero Header ***/
+      .hero-header {
+        background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/shopback.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .breadcrumb-item + .breadcrumb-item::before {
+        color: rgba(255, 255, 255, .5);
+      }
+
+
+      .shop_section .box {
+        background-color: white;
+        position: relative;
+        padding: 10px;
+        margin-top: 25px;
+      }
+      
+      .shop_section .box a {
+        color: #000000;
+      }
+      
+      .shop_section .box .img-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 15px 30px;
+        height: 245px;
+      }
+      
+      .shop_section .box .img-box img {
+        max-width: 100%;
+        max-height: 145px;
+      }
+      
+      .shop_section .box .detail-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+      }
+      
+      .shop_section .box .detail-box h6 span {
+        color: #17A2B8;
+      }
+      
+      .shop_section .box .new {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-radius: 100%;
+        font-size: 15px;
+      }
+      
+      .shop_section .btn-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 45px;
+      }
+      
+      .shop_section .btn-box a {
+        display: inline-block;
+        padding: 10px 40px;
+        background-color: #17A2B8;
+        color: #ffffff;
+        border: 1px solid #17A2B8;
+        border-radius: 5px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+      }
+      
+      .shop_section .btn-box a:hover {
+        background-color: transparent;
+        color: #17A2B8;
+      }
+      
+      .saving_section {
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+      
+      .saving_section .box {
+        padding-top: 45px;
+        background-color: #7fd7eb;
+        color: #ffffff;
+        border-radius: 15px;
+      }
+      
+      .saving_section .row {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      
+      .saving_section .img-box {
+        padding: 15px 0 0 25px;
+      }
+      
+      .saving_section .img-box img {
+        width: 100%;
+      }
+      
+      .saving_section .detail-box {
+        padding: 0 25px;
+      }
+      
+      .saving_section .detail-box p {
+        margin-top: 5px;
+      }
+      
+      .saving_section .detail-box .btn-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 35px -5px 0;
+      }
+      
+      .saving_section .detail-box .btn-box a {
+        width: 165px;
+        text-align: center;
+        margin: 5px;
+      }
+      
+      .saving_section .detail-box .btn-box .btn1 {
+        display: inline-block;
+        padding: 10px 0;
+        background-color: #109dbd;
+        color: #ffffff;
+        border: 1px solid #109dbd;
+        border-radius: 0;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+      }
+      
+      .saving_section .detail-box .btn-box .btn1:hover {
+        background-color: transparent;
+        color: #109dbd;
+      }
+      
+      .saving_section .detail-box .btn-box .btn2 {
+        display: inline-block;
+        padding: 10px 0;
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #ffffff;
+        border-radius: 0;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+      }
+      
+      .saving_section .detail-box .btn-box .btn2:hover {
+        background-color: transparent;
+        color: #ffffff;
+      }
+    </style>
+</head>
+
+<body style="background-color: #eeeeee;">
+     <!-- Spinner Start -->
+     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-grow " style="width: 3rem; height: 3rem;  color: #17A2B8;" role="status">
+          <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="hero_area">
+      <header class="header_section">
+          <div class="header_top bg-dark">
+            <div class="container">
+              <div class="contact_nav">
+                <a href="tel:6367624163">
+                  <i class="bi bi-telephone text-primary" aria-hidden="true"></i>
+                  <span style="color: white;" >
+                    Call : +91 6367624163
+                  </span>
+                </a>
+                <a href="mailto:bhardwajsunny550@gmail.com">
+                  <i class="bi bi-envelope text-primary" aria-hidden="true"></i>
+                  <span style="color: white;" >
+                    Email : bhardwajsunny550@gmail.com
+                  </span>
+                </a>
+                <a href="https://maps.app.goo.gl/ppohmNaqCuS2JaM76" target="_blank">
+                  <i class="bi bi-geo-alt text-primary" aria-hidden="true"></i>
+                  <span style="color: white;">
+                    Location
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    <!-- Topbar End -->
+
+
+    
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+          <a href="" class="navbar-brand p-0">
+              <img src="img/logo.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Home</a>
+                  <div class="nav-item dropdown">
+                  <a href="#about" class=" nav-link dropdown-toggle" data-bs-toggle="dropdown">Destination</a>
+                  <div class="dropdown-menu m-0">
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">National park</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ranthambore Fort</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Ganesh Temple</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Mansarover lakes</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rameshwaram ghat</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Surwal Lake</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Raj Bagh Ruins</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Toran Dwar</a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Rajiv Gandhi Regional Museum </a>
+                      <a href="places-to-visit-in-ranthambore.html" class="dropdown-item">Jogi Mahal </a>
+                  </div>
+              </div>
+                  <div class="nav-item dropdown">
+                      <a href="#service" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="https://www.thevillageheart.com/" class="dropdown-item">Hotel</a>
+                          <a href="online-safari-booking-ranthambore.html" class="dropdown-item">Ranthambore Safari</a>
+                          <a href="ranthambore-tour-guide.html" class="dropdown-item">Travel Guides</a>
+                      </div>
+                  </div>
+                  <div class="nav-item dropdown">
+                      <a href="#product" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Headphones</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Earbuds</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">Smart Watches</a>
+                          <a href="Wildcrews-Store.html" class="dropdown-item">VR Headsets</a>
+                      </div>
+                  </div>
+                  <a href="package1.html" class="nav-item nav-link">Packages</a>
+                  <a href="blog.html" class="nav-item nav-link ">Blog</a>
+              </div>
+              <a href="online-safari-booking-ranthambore.html" class="btn btn-primary rounded-pill py-2 px-4">Book Now</a>
+          </div>
+      </nav>
+  </div>
+  <!-- Navbar & Hero End -->
+    <!-- slides -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"  style="max-width: 100%;background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); ">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-0 " style="padding-top: 10%; margin: 0;">
+            <div class="col-md-3">
+              <img src="img/boat removebg.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body" style="color: white;">
+                <h2 class="card-title" style="color: white;">Elevate Your Audio Experience with Premium Headphones</h2>
+                <p class="card-text">Upgrade your audio experience with the best headphones available. Get yours today and embark on a journey of sonic excellence. Start exploring now!</p>
+                <p>boAt Rockerz 550</p>
+                <a href="https://amzn.to/3PNiST3"> <button type="button" class="btn" style="background-color: #d9993a; color: #000000;">Buy Now</button></a>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-width: 100%;background-image: linear-gradient(to right, #000000,#36454F,#000000); ">
+          <div class="row g-0" style="padding-top: 10%; margin: 0;">
+            <div class="col-md-3">
+              <img src="img/Fire-Boltt_Talk_2_Pro-removebg.png" class="img-fluid rounded-start" alt="boAt Rockerz 550">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body" style="color: white;">
+                <h2 class="card-title" style="color: white;">Discover Your Perfect Smart Watch</h2>
+                <p class="card-text">Upgrade your lifestyle with the best smartwatches available. Grab yours today and embark on a journey of innovation, style, and convenience. Start exploring now!</p>
+                <p>Fire-Boltt Talk 2 Pro </p>
+                <a href="https://amzn.to/45PQF3G"> <button type="button" class="btn" style="background-color: #00fe68; color: #000000;">Buy Now</button></a>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-width: 100%;background-image: linear-gradient(to right, #000000,#36454F,#000000); ">
+          <div class="row g-0" style="padding-top: 10%; margin: 0;">
+            <div class="col-md-3">
+              <img src="img/oneplus removebg.png" class="img-fluid rounded-start" alt="oneplus Nord buds 2r">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body" style="color: white;">
+                <h2 class="card-title" style="color: white;">Wireless Freedom, Unmatched Sound</h2>
+                <p class="card-text">Upgrade your audio game with the best True Wireless Earbuds (TWS) available. Get yours today and embark on a journey of wireless sound superiority. Start exploring now!</p>
+                <p>OnePlus Nord Buds 2r</p>
+                <a href="https://amzn.to/3ECzczJ"> <button type="button" class="btn" style="background-color: #5e5e67; color: white;">Buy Now</button></a>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- slides -->
+
+
+
+
+
+    <!--bioversity start-->
+    <div class="container-xxl py-5" id="service">
+      <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center text-primary px-3">Product</h6>
+              <h1 class="mb-5">Laptops</h1>
+          </div>
+      </div>
+      <section class="shop_section mb-5">
+          <div class="row g-4">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="box">
+                      <a href="https://amzn.to/46HFzO0">
+                  <div class="img-box">
+                      <img src="img/Acer Nitro V Gaming Laptop.jpg" alt="Acer Nitro V Gaming Laptop">
+                   </div>
+                  <div class="detail-box">
+                      <h6>
+                        Acer Nitro V Gaming Laptop
+                      </h6>
+                      <h6>
+                          Price
+                      <span>
+                        73,990
+                      </span>
+                      </h6>
+                  </div>
+                  <div class="new">
+                      <span class="text-primary">
+                          New
+                      </span>
+                  </div>
+                  </a>
+                  </div>
+              </div> 
+          </div>
+
+              <div class="col-md-6 col-md-4 col-lg-3">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                <div class="box">
+                  <a href="https://amzn.to/3ZPZat9">
+                    <div class="img-box">
+                      <img src="img/HP Victus Gaming Laptop.jpg" alt="HP Victus Gaming Laptop">
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        HP Victus Gaming Laptop
+                      </h6>
+                      <h6>
+                        Price
+                        <span >
+                          54,990 
+                        </span>
+                      </h6>
+                    </div>
+                    <div class="new">
+                      <span class="text-primary">
+                        New
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="box">
+                <a href="https://amzn.to/3rGP6WU">
+                  <div class="img-box">
+                    <img src="img/ASUS Vivobook 15.jpg" alt="ASUS Vivobook 15">
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      ASUS Vivobook 15
+                    </h6>
+                    <h6>
+                      Price
+                      <span>
+                       39,990
+                      </span>
+                    </h6>
+                  </div>
+                  <div class="new">
+                    <span class="text-primary">
+                      New
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+
+
+            <div class="col-md-6 col-md-4 col-lg-3">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+            <div class="box">
+              <a href="https://amzn.to/3rxFIoA">
+                <div class="img-box">
+                  <img src="img/Apple MacBook Air.jpg" alt="Apple MacBook Air">
+                </div>
+                <div class="detail-box">
+                  <h6>
+                    Apple MacBook Air
+                  </h6>
+                  <h6>
+                    Price
+                    <span>
+                     69,990 
+                    </span>
+                  </h6>
+                </div>
+                <div class="new">
+                  <span class="text-primary">
+                    New
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          </div>
+        
+
+
+             
+          </div>
+
+         
+          <div class="collapse row g-4" id="collapseExample">
+
+            
+            
+
+            
+
+          
+         
+
+
+          </div>
+          
+
+          
+          
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  id="myBtn" style="float: right; margin-top: 2%;">
+            More
+        </button>
+      </section>
+    </div>
+
+    <!--bioversity start-->
+
+    
+
+      <!--bioversity start-->
+      <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Product</h6>
+                <h1 class="mb-5">SmartPhones</h1>
+            </div>
+        </div>
+        <section class="shop_section mb-5">
+            <div class="row g-4">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3ZJ7mLY">
+                    <div class="img-box">
+                        <img src="img/Apple iPhone 15 Plus.jpg" alt="Apple iPhone 15 Plus">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          Apple iPhone 15 Plus 
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          89,900
+                        </span>
+                        </h6>
+                    </div>
+                    <div class="new">
+                        <span class="text-primary">
+                            New
+                        </span>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+
+                <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                  <div class="box">
+                    <a href="https://amzn.to/3Q1ur9d">
+                      <div class="img-box">
+                        <img src="img/Apple iPhone 14.jpg" alt="Apple iPhone 14 ">
+                      </div>
+                      <div class="detail-box">
+                        <h6>
+                          Apple iPhone 14 
+                        </h6>
+                        <h6>
+                          Price
+                          <span >
+                            62,999 
+                          </span>
+                        </h6>
+                      </div>
+                      <div class="new">
+                        <span class="text-primary">
+                          New
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-md-4 col-lg-3">
+                  <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                <div class="box">
+                  <a href="https://amzn.to/3Q1AvP4">
+                    <div class="img-box">
+                      <img src="img/Apple iPhone 13.jpg" alt="Apple iPhone 13 ">
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        Apple iPhone 13
+                      </h6>
+                      <h6>
+                        Price
+                        <span>
+                         52,499
+                        </span>
+                      </h6>
+                    </div>
+                    <div class="new">
+                      <span class="text-primary">
+                        New
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="box">
+                <a href="https://amzn.to/48EZXky">
+                  <div class="img-box">
+                    <img src="img/Alvioni Pixel 7a Sea 5G.jpg" alt="Alvioni Pixel 7a Sea 5G  ">
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Alvioni Pixel 7a Sea 5G 
+                    </h6>
+                    <h6>
+                      Price
+                      <span>
+                       42,800 
+                      </span>
+                    </h6>
+                  </div>
+                  <div class="new">
+                    <span class="text-primary">
+                      New
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+          
+
+
+               
+            </div>
+
+           
+            <div class="collapse row g-4" id="collapseExample">
+
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3RDTEYE">
+                    <div class="img-box">
+                        <img src="img/Samsung Galaxy Z Flip3 5G.jpg" alt="Samsung Galaxy Z Flip3 5G">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          Samsung Galaxy Z Flip3 5G 
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          44,999
+                        </span>
+                        </h6>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3Q2sSYT">
+                    <div class="img-box">
+                        <img src="img/Apple iPhone 12.jpg" alt="Apple iPhone 12">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          Apple iPhone 12
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          63,999
+                        </span>
+                        </h6>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+              </div>
+              
+
+              
+
+            
+           
+
+
+            </div>
+            
+
+            
+            
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  id="myBtn" style="float: right; margin-top: 2%;">
+              More
+          </button>
+        </section>
+      </div>
+
+      <!--bioversity start-->
+
+      <!--bioversity start-->
+      <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Product</h6>
+                <h1 class="mb-5">Headphones</h1>
+            </div>
+        </div>
+        <section class="shop_section mb-5">
+            <div class="row g-4">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/456zN7t">
+                    <div class="img-box">
+                        <img src="img/Noise Two Wireless On-Ear Headphones.jpg" alt="Noise Two Wireless On-Ear Headphones ">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          Noise Two Headphones 
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          1,499
+                        </span>
+                        </h6>
+                    </div>
+                    <div class="new">
+                        <span class="text-primary">
+                            New
+                        </span>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+
+                <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                  <div class="box">
+                    <a href="https://amzn.to/3PNiST3">
+                      <div class="img-box">
+                        <img src="img/boAt Rockerz 550.jpg" alt="boAt Rockerz 550 ">
+                      </div>
+                      <div class="detail-box">
+                        <h6>
+                          boAt Rockerz 550 
+                        </h6>
+                        <h6>
+                          Price
+                          <span >
+                            1,619 
+                          </span>
+                        </h6>
+                      </div>
+                      <div class="new">
+                        <span class="text-primary">
+                          New
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-md-4 col-lg-3">
+                  <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                <div class="box">
+                  <a href="https://amzn.to/3ZqDWBQ">
+                    <div class="img-box">
+                      <img src="img/Hammer Bash 2.0.jpg" alt="Hammer Bash 2.0 ">
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        Hammer Bash 2.0 
+                      </h6>
+                      <h6>
+                        Price
+                        <span>
+                         1,999
+                        </span>
+                      </h6>
+                    </div>
+                    <div class="new">
+                      <span class="text-primary">
+                        New
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="box">
+                <a href="https://amzn.to/3RwPrFX">
+                  <div class="img-box">
+                    <img src="img/boAt Rockerz 450.jpg" alt="boAt Rockerz 450 ">
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      boAt Rockerz 450
+                    </h6>
+                    <h6>
+                      Price
+                      <span>
+                       1,499 
+                      </span>
+                    </h6>
+                  </div>
+                  <div class="new">
+                    <span class="text-primary">
+                      New
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+          
+
+
+               
+            </div>
+
+           
+            <div class="collapse row g-4" id="collapseExample">
+
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/48DiXQP">
+                    <div class="img-box">
+                        <img src="img/ZEBRONICS Zeb-Bang PRO.jpg" alt="ZEBRONICS Zeb-Bang PRO">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          ZEBRONICS Zeb-Bang PRO 
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          799
+                        </span>
+                        </h6>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3rtJezZ">
+                    <div class="img-box">
+                        <img src="img/boAt Rockerz 400.jpg" alt="boAt Rockerz 400">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          boAt Rockerz 400
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          1,099
+                        </span>
+                        </h6>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+              </div>
+              
+
+              
+
+            
+           
+
+
+            </div>
+            
+
+            
+            
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  id="myBtn" style="float: right; margin-top: 2%;">
+              More
+          </button>
+        </section>
+      </div>
+
+      <!--bioversity start-->
+
+
+      <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Product</h6>
+                <h1 class="mb-5">Smart Watches</h1>
+            </div>
+        </div>
+        <section class="shop_section mb-5">
+            <div class="row g-4">
+                <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                  <div class="box">
+                    <a href="https://amzn.to/3riSCGA">
+                      <div class="img-box">
+                        <img src="img/boAt Wave Electra.jpg" alt="boAt Wave Electra">
+                      </div>
+                      <div class="detail-box">
+                        <h6>
+                          boAt Wave Electra
+                        </h6>
+                        <h6>
+                          Price
+                          <span >
+                            1,499 
+                          </span>
+                        </h6>
+                      </div>
+                      <div class="new">
+                        <span class="text-primary">
+                          New
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                </div>
+
+                <div class="col-md-6 col-md-4 col-lg-3">
+                  <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                <div class="box">
+                  <a href="https://amzn.to/45PQF3G">
+                    <div class="img-box">
+                      <img src="img/Fire-Boltt Talk 2 Pro.jpg" alt="Fire-Boltt Talk 2 Pro">
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        Fire-Boltt Talk 2 Pro
+                      </h6>
+                      <h6>
+                        Price
+                        <span>
+                         1,799 
+                        </span>
+                      </h6>
+                    </div>
+                    <div class="new">
+                      <span class="text-primary">
+                        New
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+
+
+              <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="box">
+                <a href="https://amzn.to/3PhlRBB">
+                  <div class="img-box">
+                    <img src="img/Noise ColorFit Ultra 2 LE.jpg" alt="Noise ColorFit Ultra 2 LE ">
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Noise ColorFit Ultra 2 LE 
+                    </h6>
+                    <h6>
+                      Price
+                      <span>
+                       2,499 
+                      </span>
+                    </h6>
+                  </div>
+                  <div class="new">
+                    <span class="text-primary">
+                      New
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+          
+
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box">
+                            <a href="https://amzn.to/3Lpub1f">
+                        <div class="img-box">
+                            <img src="img/Fire-Boltt Ninja Call Pro Plus.jpg" alt="Fire-Boltt Ninja Call Pro Plus">
+                         </div>
+                        <div class="detail-box">
+                            <h6>
+                              Fire-Boltt Ninja 
+                            </h6>
+                            <h6>
+                                Price
+                            <span>
+                              1,299
+                            </span>
+                            </h6>
+                        </div>
+                        <div class="new">
+                            <span class="text-primary">
+                                New
+                            </span>
+                        </div>
+                        </a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+           
+            <div class="collapse row g-4" id="collapseExample">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3ZjlX07	">
+                    <div class="img-box">
+                        <img src="img/samsung.jpg" alt="Samsung Galaxy Watch4">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          Samsung Galaxy Watch4
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          11,990
+                        </span>
+                        </h6>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3ZfaVcs">
+                    <div class="img-box">
+                        <img src="img/boat.jpg" alt="boAt Wave Style">
+                    </div>
+                    <div class="detail-box">
+                        <h6>
+                          boAt Wave Style
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          999
+                        </span>
+                        </h6>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+                <div class="box">
+                  <a href="https://amzn.to/3RoBtpE ">
+                    <div class="img-box">
+                      <img src="img/noice.jpg" alt="Noise Watches">
+                    </div>
+                    <div class="detail-box">
+                      <h6>
+                        Noise Pulse 2 Max
+                      </h6>
+                      <h6>
+                        Price
+                        <span >
+                          1,499 
+                        </span>
+                      </h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-md-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="box">
+                <a href="https://amzn.to/3EFHpTQ">
+                  <div class="img-box">
+                    <img src="img/pabble.jpg" alt="Pebble Cosmos Endure">
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                        Pebble Cosmos Endure
+                    </h6>
+                    <h6>
+                      Price
+                      <span>
+                       4,699 
+                      </span>
+                    </h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+
+            
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <div class="box">
+                  <a href="https://amzn.to/3EXxE3z">
+              <div class="img-box">
+                  <img src="img/fire boltt.jpg" alt="Fire-Boltt Gladiator">
+              </div>
+              <div class="detail-box">
+                  <h6>
+                    Fire-Boltt Gladiator
+                  </h6>
+                  <h6>
+                      Price
+                  <span>
+                    1,999
+                  </span>
+                  </h6>
+            </div>
+                  </a>
+              </div>
+            </div>
+            </div>
+
+
+            </div>
+            
+
+            
+            
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  id="myBtn" style="float: right; margin-top: 2%;">
+              More
+          </button>
+        </section>
+      </div>
+
+
+
+    <div class="container-xxl py-5" id="service">  
+      <div class="container">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <h6 class="section-title bg-white text-center text-primary px-3">Product</h6>
+                  <h1 class="mb-5">Earbuds</h1>
+              </div>
+      </div>
+      <section class="shop_section mb-5">
+        <div class="row g-4">
+            <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="box">
+                <a href="https://amzn.to/3ECzczJ">
+                  <div class="img-box">
+                    <img src="img/OnePlus Nord Buds 2r.jpg" alt="OnePlus Nord Buds 2r">
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      OnePlus Nord Buds 2r
+                    </h6>
+                    <h6>
+                      Price
+                      <span >
+                        2,199 
+                      </span>
+                    </h6>
+                  </div>
+                  <div class="new">
+                    <span class="text-primary">
+                      New
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            </div>
+
+            <div class="col-md-6 col-md-4 col-lg-3">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+            <div class="box">
+              <a href="https://amzn.to/46dT7AA">
+                <div class="img-box">
+                  <img src="img/JBL Tune 130Nc.jpg" alt="JBL Tune 130Nc ">
+                </div>
+                <div class="detail-box">
+                  <h6>
+                    JBL Tune 130Nc 
+                  </h6>
+                  <h6>
+                    Price
+                    <span>
+                     3,999 
+                    </span>
+                  </h6>
+                </div>
+                <div class="new">
+                  <span class="text-primary">
+                    New
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          </div>
+
+
+          <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+          <div class="box">
+            <a href="https://amzn.to/44RwzEO">
+              <div class="img-box">
+                <img src="img/Oppo Enco Air3 Pro.jpg" alt="Oppo Enco Air3 Pro ">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Oppo Enco Air3 Pro 
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                   4,999 
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span class="text-primary">
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        </div>
+      
+
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="box">
+                        <a href="https://amzn.to/3Riq22V">
+                    <div class="img-box">
+                        <img src="img/boAt Airdopes 170.jpg" alt="boAt Airdopes 170">
+                     </div>
+                    <div class="detail-box">
+                        <h6>
+                          boAt Airdopes 170
+                        </h6>
+                        <h6>
+                            Price
+                        <span>
+                          1,299
+                        </span>
+                        </h6>
+                    </div>
+                    <div class="new">
+                        <span class="text-primary">
+                            New
+                        </span>
+                    </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>  
+
+
+    
+</div>
+
+<!--bioversity start-->
+<div class="container-xxl py-5" id="service">
+  <div class="container">
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">Product</h6>
+          <h1 class="mb-5">VR Headsets</h1>
+      </div>
+  </div>
+  <section class="shop_section mb-5">
+      <div class="row g-4">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <div class="box">
+                  <a href="https://amzn.to/3LD90c4">
+              <div class="img-box">
+                  <img src="img/JioDive.jpg" alt="JioDive">
+               </div>
+              <div class="detail-box">
+                  <h6>
+                    JioDive
+                  </h6>
+                  <h6>
+                      Price
+                  <span>
+                    1,299
+                  </span>
+                  </h6>
+              </div>
+              <div class="new">
+                  <span class="text-primary">
+                      New
+                  </span>
+              </div>
+              </a>
+              </div>
+          </div> 
+      </div>
+
+          <div class="col-md-6 col-md-4 col-lg-3">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+            <div class="box">
+              <a href="https://amzn.to/3PA4BaR">
+                <div class="img-box">
+                  <img src="img/Irusu_Monster_VR_Box_Headset_3.webp" alt="Irusu Monster ">
+                </div>
+                <div class="detail-box">
+                  <h6>
+                    Irusu Monster
+                  </h6>
+                  <h6>
+                    Price
+                    <span >
+                      1,899
+                    </span>
+                  </h6>
+                </div>
+                <div class="new">
+                  <span class="text-primary">
+                    New
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-3">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+          <div class="box">
+            <a href="https://amzn.to/46qyr8z">
+              <div class="img-box">
+                <img src="img/PROCUS One X.jpg" alt="PROCUS One X">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  PROCUS One X 
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                   2,299
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span class="text-primary">
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-6 col-md-4 col-lg-3">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s"> 
+        <div class="box">
+          <a href="https://amzn.to/3t1ZXLe">
+            <div class="img-box">
+              <img src="img/Raptas.jpg" alt="Raptas">
+            </div>
+            <div class="detail-box">
+              <h6>
+                Raptas
+              </h6>
+              <h6>
+                Price
+                <span>
+                 2,635 
+                </span>
+              </h6>
+            </div>
+            <div class="new">
+              <span class="text-primary">
+                New
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+    
+
+
+         
+      </div>
+
+     
+      <div class="collapse row g-4" id="collapseExample">
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <div class="box">
+                  <a href="https://amzn.to/48yaVs8">
+              <div class="img-box">
+                  <img src="img/VR BOX.jpg" alt="VR HEADSET">
+               </div>
+              <div class="detail-box">
+                  <h6>
+                    VR Box 
+                  </h6>
+                  <h6>
+                      Price
+                  <span>
+                    429
+                  </span>
+                  </h6>
+              </div>
+              </a>
+              </div>
+          </div> 
+      </div>
+       
+        
+
+        
+
+      
+     
+
+
+      </div>
+      
+
+      
+      
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  id="myBtn" style="float: right; margin-top: 2%;">
+        More
+    </button>
+  </section>
+</div>
+
+<!--bioversity start-->
+
+<!-- why us  Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Why Us</h6>
+                <h1 class="mb-5">Why Shop With Us?</h1>
+            </div>
+            <div class="row gy-5 gx-4 justify-content-center">
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center  rounded-circle position-absolute top-0 start-50 translate-middle shadow"  style="width: 100px; height: 100px;  background-color: #17A2B8;">
+                            <i class='fas fa-shipping-fast  fa-3x text-white'></i>
+                        </div>
+                        <h5 class="mt-4">Fast Delivery</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">"Swiftly delivered to your doorstep, our fast delivery service brings convenience to your door."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px; background-color: #17A2B8;">
+                            <i class="fas fa-hand-holding-usd mb-4 fa-3x text-white" ></i>
+                        </div>
+                        <h5 class="mt-4">Free Shiping</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">"Enjoy the added perk of free shipping for a seamless shopping experience."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px; background-color: #17A2B8;">
+                            <i class="fa fa-plane fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Best Quality</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">"Exceeding expectations with our commitment to the finest quality service."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- why us End-->
+<!-- blog section -->
+
+<div class="container-xxl py-5" id="blog" >
+    <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Blog</h6>
+                <h1 class="mb-5">Our Blog</h1>
+            </div>  
+        <div class="row g-4 portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid " src="img/blog1.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog1.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog1.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore tiger reserve</p>
+                        <h5 class="lh-base mb-0"> popular national parks in the country</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog2.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog2.jpg" data-lightbox="portfolio" target="_blank" ><i class="bi bi-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog2.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari</p>
+                        <h5 class="lh-base mb-0">wildlife safari experience in the Ranthambore Tiger Reserve</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog3.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="img/blog3.jpg" data-lightbox="portfolio" target="_blank"><i class="bi bi-eye "></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="blog3.html"><i class="bi bi-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="border border-5 border-light border-top-0 p-4">
+                        <p style="color: #17A2B8;">Ranthambore Safari zone</p>
+                        <h5 class="lh-base mb-0">multiple safari zones each offering a unique wildlife experience </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="key">
+            <a href="blog.html">
+              View All Blogs
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- blog section End -->
+<!---footer section start-->
+<footer class="text-center text-lg-start bg-dark text-white">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com/onlysunny0?igshid=ZDc4ODBmNjlmNQ==" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/+916367624163" class="me-4 text-reset">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://github.com/mrkali550" target="_blank" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-1 col-lg-4 col-xl-3 mx-auto mb-0">
+          <!-- Content -->
+          <img src="img/logo.png" alt="wild-crews" style="width: 60%;">
+          <h6 class="text-uppercase fw-bold mb-4"  style="font-family: 'Bagel Fat One', cursive; font-size: 150%; color: white;">
+            <i class="me-3"></i>Wild Crews
+          </h6>
+          <p>
+            Your gateway to extraordinary jungle safaris and wildlife adventures, where unforgettable encounters with nature and immersive experiences await.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+            Products
+          </h6>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Wild Life</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Safari Wears</a>
+          </p>
+          <p>
+            <a href="wildcrews-store.html" class="text-reset">Musical</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">
+            Services
+          </h6>
+          <p>
+            <a href="https://www.thevillageheart.com/" class="text-reset">Hotels</a>
+          </p>
+          <p>
+            <a href="online-safari-booking-ranthambore.html" class="text-reset">Safari</a>
+          </p>
+          <p>
+            <a href="ranthambore-tour-guide.html" class="text-reset">Guide</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"  style="color: white;">Contact</h6>
+            <i class="fas fa-envelope me-0"></i>
+            bhardwajsunny550@gmail.com
+          </p>
+          <p><i class="bi bi-telephone-fill me-0"></i> + 91 636 762 4163</p>
+          <p><i class="fas fa-print me-0"></i> + 91 797 626 8400</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://wildcrews.com/">wildcrews.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- end Footer -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/port.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        
+        const btn = document.getElementById('myBtn');
+        btn.addEventListener('click', function handleClick() {
+          if (btn.textContent == 'less'){btn.textContent = 'more';}
+          else{btn.textContent = 'less';}  
+        });
+    </script>
+    
+</body>
+</html>
